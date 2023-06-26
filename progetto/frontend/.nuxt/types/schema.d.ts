@@ -1,4 +1,4 @@
-import { NuxtModule } from 'nuxt/schema'
+import { NuxtModule, RuntimeConfig } from 'nuxt/schema'
 declare module 'nuxt/schema' {
   interface NuxtConfig {
     ["telemetry"]?: typeof import("@nuxt/telemetry").default extends NuxtModule<infer O> ? Partial<O> : Record<string, any>
@@ -17,3 +17,8 @@ declare module 'nuxt/schema' {
    serverURL: string,
   }
 }
+declare module 'vue' {
+        interface ComponentCustomProperties {
+          $config: RuntimeConfig
+        }
+      }

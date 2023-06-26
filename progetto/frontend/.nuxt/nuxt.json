@@ -1,9 +1,9 @@
 {
-  "_hash": "JPToEFmFp5",
+  "_hash": "JmswJ61baq",
   "project": {
-    "rootDir": "C:/Users/Admin/Desktop/progetto/progettohyper/progetto/frontend"
+    "rootDir": "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
   },
   "versions": {
-    "nuxt": "3.3.3"
+    "nuxt": "3.6.0"
   }
 }

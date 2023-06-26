@@ -6,10 +6,10 @@
     "module": true,
     "resourceType": "script"
   },
-  "C:/Users/Admin/Desktop/progetto/progettohyper/progetto/frontend/node_modules/nuxt/dist/app/entry.js": {
+  "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app/entry.js": {
     "resourceType": "script",
     "module": true,
     "isEntry": true,
-    "file": "C:/Users/Admin/Desktop/progetto/progettohyper/progetto/frontend/node_modules/nuxt/dist/app/entry.js"
+    "file": "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app/entry.js"
   }
 }
