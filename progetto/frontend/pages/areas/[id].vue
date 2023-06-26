@@ -7,10 +7,11 @@
         <div class = "info-group">
             <img id = "main-img" src = "~/assets/img/economia.jpg" />
             <div id = "data-container">
-                <p class = "data"> <span>{{ area.name }}</span></p>
+                <p class = "data"> <h1><span>{{ area.name }}</span></h1></p>
             </div>
         </div>
         <p id = "description" v-html = "newLineOnFullStop(area.description)"></p>
+
         <!--
             v-html allows us to change the structure of a HTML element.
             It used because of the 'newLineOnFullStop' function that returns a string with the <br> tags.

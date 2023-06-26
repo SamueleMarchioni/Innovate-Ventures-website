@@ -5,7 +5,7 @@
 <template>
     <main>
         <div class = "info-group">
-            <img id = "main-img" src = "~/assets/img/Peter Parker.jpg" />
+            <img v-bind:src="'~/assets/img/people/' +  dog.image" />
             <div id = "data-container">
                 <p class = "data">Name: <span>{{ dog.name }}</span></p>
                 <p class = "data">Role: <span>{{ dog.breed }}</span></p>
@@ -20,6 +20,7 @@
         -->
 
         <p id = "description" v-html = "newLineOnFullStop(dog.description)"></p>
+
       
          <h1 id="proj">projects supervised:</h1>
          
@@ -92,4 +93,6 @@
         color:  rgb(235, 134, 98);
         font-size: 20pt;
     }
+
+    
 </style>

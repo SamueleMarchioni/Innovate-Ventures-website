@@ -26,64 +26,74 @@ export default async (models) => {
 
     const dogModel = [
         {
-            name: "Tony Stark",
-            breed: "Co-Founder",
-            age: 55,
-            description: "He co-founded Oltre after a journey in the social sector started in 2002 with the establishment of Fondazione Oltre, the first Italian Venture Philanthropy foundation. Previously, he worked for 20 years in the Venture Capital and Private Equity sector, as co-founder of B&S Private Equity and General Manager of Finnova, the first VC company in Italy.",
+            name: "John Smith",
+            breed: "Co-Founder and CEO",
+            age: 40,
+            description: "John Smith is a highly accomplished entrepreneur and visionary leader. With a proven track record of launching successful startups, he brings a wealth of experience to the venture. John's strategic thinking, deep industry knowledge, and ability to identify emerging trends make him an invaluable asset. As the CEO, he is responsible for setting the company's overall direction, driving growth, and fostering strategic partnerships.",
+            image: "Clooney.jpeg",
         },
         {
-            name: "Bruce Wayne",
-            breed: "Co-Founder",
-            age: 38,
-            description: "Bruce has over 15 years of experience in impact investing. He participated in the establishment and growth of this venture capital, where he followed the birth of the main companies financed by the company. He started his career in investment banking in Jp Morgan, Microcredito Lombardo and in the financial management of Gruppo Rinascente.",
-            },
+            name: "Jane Doe",
+            breed: "Chief Technology Officer,",
+            age: 35,
+            description: "Jane Doe is a tech-savvy innovator with a passion for leveraging technology to disrupt industries. With expertise in software development and cutting-edge technologies, she leads the company's technological initiatives. Jane's ability to translate ideas into scalable and user-friendly solutions is instrumental in developing innovative products and services. Her deep understanding of market trends and emerging technologies ensures the venture remains at the forefront of technological advancements.",
+            image:"angelina.webp",
+        },
         {
-            name: "Peter Parker",
+            name: "Sarah Thompson",
             breed: "Chief Financial Officer",
             age: 45,
-            description: "With a background in finance and extensive experience in investment banking, Peter brings a strong understanding of financial analysis and valuation to the table.",
-            },
+            description: "Sarah Thompson is a seasoned finance professional with a strong background in investment and financial analysis. As the CFO, she oversees financial strategy, fundraising efforts, and manages the company's financial operations. Sarah's expertise in financial modeling, risk assessment, and valuation plays a crucial role in driving profitability and attracting investors. Her meticulous attention to detail and strategic financial planning ensure the venture's financial stability and growth.",
+            image:"natalie.jpg",
+        },
         {
-            name: "Steven Strange",
+            name: "Mark Johnson",
+            breed: "Chief Marketing Officer,",
+            age: 38,
+            description: "Mark Johnson is a marketing and branding specialist known for his creative approach and deep understanding of consumer behavior. With a keen eye for market trends and a passion for building strong brands, he leads the company's marketing efforts. Mark's ability to craft compelling brand narratives, design effective marketing campaigns, and engage target customers ensures the venture's products and services resonate with the intended audience, driving customer acquisition and loyalty.",
+            image:"cage.jpeg",
+        },
+        {
+            name: "Emily Chen",
             breed: "Business Development Manager",
-            age: 40,
-            description: "An industry expert with a vast network of contacts, Steven can leverage her connections to open doors and facilitate strategic partnerships for the venture.",
-            },
-        {
-            name: "Diana Prince",
-            breed: "Chief Technology Officer",
-            age: 40,
-            description: " An expert in technology and innovation, Jane has worked with various startups and has a keen eye for promising opportunities in emerging markets.",
-            },
-        {
-            name: "Maria Hill",
-            breed: "Chief Operations Officer",
             age: 32,
-            description: "With a background in operations and supply chain management, Maria can provide valuable insights on optimizing processes and ensuring operational efficiency.",
-            },
+            description: "Emily Chen is a highly motivated and results-driven professional with extensive experience in business development and strategic partnerships. Her vast network of industry contacts and strong negotiation skills make her instrumental in identifying growth opportunities and forging strategic alliances. Emily's ability to navigate complex business landscapes, build relationships, and create mutually beneficial partnerships fuels the venture's expansion and opens doors to new markets.",
+            image:"dicaprio.jpeg",
+        },
         {
-            name: "Natasha Romanov",
-            breed: "Head of Research and Development",
-            age: 30,
-            description: "With a strong background in research and development, Natasha brings expertise in product development and innovation, ensuring the venture stays ahead of the competition.",
-            },
-        {
-            name: "Barry Allen",
-            breed: "Project Manager",
+            name: "David Rodriguez",
+            breed: "Chief Operations Officer",
             age: 42,
-            description: "An experienced project manager, Barry can oversee the implementation of the venture's initiatives and ensure timely execution of key milestones",
-             },
+            description: "David Rodriguez is a seasoned operations expert with a knack for optimizing processes and maximizing efficiency. With a background in supply chain management, he ensures smooth operations and seamless execution of the venture's initiatives. David's keen eye for identifying bottlenecks, streamlining workflows, and implementing scalable systems ensures the venture operates at peak performance, delivering products and services with precision and speed.",
+            image:"Peter Parker.jpg",
+        },
         {
-            name: "Wanda Maximof",
-            breed: "Chief Marketing Officer",
-            age: 28,
-            description: "As a marketing and branding specialist, Wanda can provide valuable insights on positioning the venture and reaching target customers effectively.",
-             },
-        {
-            name: "Wade Wilson",
+            name: "Lisa Williams",
             breed: "Legal Counsel",
+            age: 48,
+            description: "Lisa Williams is a highly regarded legal professional specializing in corporate law and intellectual property. With her extensive experience and expertise, she protects the venture's legal interests and ensures compliance with regulatory requirements. Lisa's meticulous approach to legal matters, including contracts, patents, and trademarks, mitigates risks and safeguards the venture's assets. Her strategic guidance on legal issues allows the company to navigate complex legal landscapes with confidence.",
+            image:"Clooney.jpeg",
+        },
+        {
+            name: "Michael Brown",
+            breed: "Head of Research and Development",
+            age: 37,
+            description: "Michael Brown is a research and development expert with a passion for innovation and a deep understanding of scientific advancements. With a strong background in product development, he leads the company's research efforts and drives the creation of cutting-edge technologies. Michael's ability to translate scientific concepts into practical applications, coupled with his strategic vision, enables the venture to stay ahead of the competition and develop groundbreaking products and solutions.",
+            image:"keanu.jpeg",
+         },
+        {
+            name: "Anna Nguyen",
+            breed: "Project manager",
+            age: 28,
+            description: "Anna Nguyen is a highly organized and detail-oriented project manager with a knack for overseeing complex initiatives. Her strong leadership skills and ability to coordinate cross-functional teams ensure the successful execution of the venture's projects. Anna's expertise in project planning, risk management, and resource allocation allows her to deliver projects on time and within budget, driving operational efficiency and achieving key milestones.",
+            image:"Clooney.jpeg",
+        },
+        {
+            name: "Steven Lee",
+            breed: "Venture advisor",
             age: 35,
-            description: "A seasoned legal professional specializing in corporate law and intellectual property, Wade can offer guidance on legal matters and protect the venture's assets.",
+            description: "Steven Lee is a seasoned investor and advisor with extensive experience in the venture capital industry. With a wealth of knowledge in strategic planning, market analysis, and scaling strategies, he provides valuable guidance to the venture. Steven's ability to identify emerging trends, assess market potential, and offer strategic insights helps the company make informed decisions and navigate the challenges of rapid growth. His network and industry connections open doors to new opportunities and potential investors.",
+            image:"IdrisElba.jpeg",
         }
     ]
     
@@ -145,7 +155,7 @@ export default async (models) => {
             area_selection : 1
         },
         {
-            name: "Travel Experience Aggregator:",
+            name: "Travel Experience Aggregator",
             city: "Tourism ",
             areaId: area1.id,
             dogId : dog5.id,
@@ -239,3 +249,4 @@ export default async (models) => {
 
     await models.Location.bulkCreate(locationModel)
 }
+

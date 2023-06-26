@@ -42,6 +42,18 @@ import CardArea from '~/components/CardArea.vue';
         align-content: flex-start;
         gap: 20px;
     }
+    .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+
+    .card {
+        margin-left: -10px;
+        transition: margin-left 200ms;
+    }
+
+    .card:hover+card{
+        margin-left: -1px;
+    }
 
     main
     {

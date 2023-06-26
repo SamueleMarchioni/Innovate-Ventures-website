@@ -18,7 +18,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
             </div>
         </div>
 
-        <p id = "description" v-html = "newLineOnFullStop(location.description)"></p>
+        <p id = "description" v-html = location.description></p>
 
         <h1 id="proj">area of concern:</h1>
         

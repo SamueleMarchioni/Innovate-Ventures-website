@@ -19,8 +19,8 @@
     {
         display: flex;
         justify-content: center;
-        padding: 2px;
-        width: 250px;
+        padding: 1px;
+        width: 100%;
         height: 250px;
     }
 
@@ -35,7 +35,14 @@
 
     .title
     {
-        font-size: 2em;
+        font-size: 1.5em;
         font-weight: bold;
+    }
+
+    .button{
+        display:flex;
+    }
+    button:hover {
+        opacity: 0.7;
     }
 </style>
