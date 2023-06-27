@@ -34,7 +34,7 @@ export default async (models) => {
         },
         {
             name: "Jane Doe",
-            breed: "Chief Technology Officer,",
+            breed: "Chief Technology Officer",
             age: 35,
             description: "Jane Doe is a tech-savvy innovator with a passion for leveraging technology to disrupt industries. With expertise in software development and cutting-edge technologies, she leads the company's technological initiatives. Jane's ability to translate ideas into scalable and user-friendly solutions is instrumental in developing innovative products and services. Her deep understanding of market trends and emerging technologies ensures the venture remains at the forefront of technological advancements.",
             image:"angelina.webp",

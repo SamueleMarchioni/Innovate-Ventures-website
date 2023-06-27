@@ -2,8 +2,8 @@
      Home page
 -->
 <template>
-    <main>
 
+    <main>
         <img id = "main-img" src = "~/assets/img/uuu.webp" />
 
     <h1>
@@ -36,6 +36,10 @@
 
     </main>
 </template>
+
+
+
+
 
 <style>
     #main-img {

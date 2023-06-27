@@ -12,7 +12,7 @@
         </NuxtLink> 
 
         <div id = "form-container">
-            <label for = "projects filter">let's choose your area of interest</label>
+            <label for = "projects filter"><h3>let's choose your area of interest</h3></label>
             <select v-model="area">
             <option value="0"> All projects</option>
             <option value="1"> Economy</option>
@@ -106,6 +106,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-content: flex-start;
+        color: rgb(14, 43, 161);
         gap: 20px;
         background-color:rgb(82, 200, 240);
         padding: 20px;

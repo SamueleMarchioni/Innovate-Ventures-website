@@ -15,6 +15,7 @@
         <span class="title">{{ title }}</span>
         <NuxtLink :to = "link" class="linkstyle" >see more information</NuxtLink>
     </div>
+    
 </template>
 
 
@@ -31,7 +32,7 @@
         width: 100px;
         height: 100px;
     }
-
+    
     .img
     {
         vertical-align: middle;
@@ -40,6 +41,7 @@
         height: auto;
         width: auto;
         margin: auto;
+        aspect-ratio: 1/1;
     }
 
     .card
@@ -47,28 +49,25 @@
         display: flex;
         flex-flow: column;
         padding: 10px;
-        border: solid blue;
+        border: solid rgb(0, 115, 255);
         width: fit-content;
         height: fit-content;
+        align-items:center;
     }
 
-    .title
-    {
-        font-size: 2em;
-        font-weight: bold;
-        color: rgb(27, 103, 202);
-    }
-    .subtitle{
-        font-size: 1em;
-        color: rgb(14, 144, 161);
-    }
-    .linkstyle:hover{
-        color:rgb(142, 205, 226);
+    .title {
+    margin: 10px 0;
+    color: rgb(27, 103, 202);
+}
 
-        
-    }
-    .linkstyle{
-        color: rgb(235, 134, 98);
-        text-decoration: none;
-    }
+.subtitle {
+    margin: 5px 0;
+    text-transform: uppercase;
+    color: rgb(14, 95, 161);
+}
+
+ .linkstyle{
+        color: rgb(226, 109, 67);
+}
+
 </style>

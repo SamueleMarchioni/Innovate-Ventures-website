@@ -58,9 +58,10 @@ import SmallCardArea from '~/components/smallCardArea.vue';
         gap: 10px
     }
 
-    #main-img {
-    width: 30%;
-    height: auto;
+    img {
+    width: 300px;
+    height: 300px;
+    margin: 1%;
     }
 
     main {

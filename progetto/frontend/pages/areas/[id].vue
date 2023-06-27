@@ -39,10 +39,12 @@
 </script>
 
 <style>
-    #main-img {
-    width: 30%;
-    height: auto;
+    img {
+    width: 300px;
+    height: 300px;
+    margin: 1%;
     }
+   
 
     main {
         width: 100%;
@@ -51,6 +53,7 @@
         align-items: center;
     }
 
+    
     .info-group {
         width: 100%;
         display: flex;

@@ -46,9 +46,10 @@
 </script>
 
 <style>
-    #main-img {
-    width: 30%;
-    height: auto;
+    img {
+    width: 300px;
+    height: 400px;
+    margin: 1%;
     }
 
     main {
@@ -71,18 +72,22 @@
         font-weight: bolder;
         font-size: 20pt;
         color:rgb(27, 103, 202);
+
     }
 
     .data span {
         font-weight: 100;
-        font-size: 15pt;
+        font-size: 20pt;
         color:  rgb(11, 139, 182);
+        
     }
 
     #description {
         padding: 0 20px 0 20px;
         font-size: 15pt;
         color: rgb(14, 144, 161);
+        
+     
     }
     #proj{
         color:  rgb(235, 134, 98);

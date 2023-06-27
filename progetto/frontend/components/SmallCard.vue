@@ -51,5 +51,12 @@
         font-weight: bold;
     }
 
+    .button {
+    background-color: #198991;
+    border: 1px solid #198991;
+    border-radius: 3px;
+    color: #231e39;
+    padding: 10px 25px;
+}
 
 </style>

@@ -15,7 +15,7 @@
         background-color:rgb(11, 139, 182);
         flex-shrink: 0;
         text-align: center;
-        margin-top: auto;
+        margin-top: 1%;
         border-bottom: 5px solid rgb(16, 16, 139);
         padding: 5px;
 
