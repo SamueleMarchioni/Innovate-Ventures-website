@@ -10,7 +10,7 @@
 <template>
     <div class="card">
         <div class="image-container">
-            <img class="img" src="~/assets/img/economia.jpg" alt="problemi"/>
+            <img class="img" :src="imm_link" alt="problemi"/>
         </div>
         <span class="title">{{ title }}</span>
         <NuxtLink :to = "link" class="linkstyle" >see more information</NuxtLink>
@@ -19,7 +19,7 @@
 
 
 <script setup>
-    const props = defineProps(['title', 'link'])   
+    const props = defineProps(['title', 'link','imm_link'])   
 </script>
 
 <style>

@@ -5,7 +5,7 @@
 <template>
     <main>
         <div class = "info-group">
-            <img v-bind:src="'~/assets/img/people/' +  dog.image" />
+            <img v-bind:src="getSrc(dog.name)" />
             <div id = "data-container">
                 <p class = "data">Name: <span>{{ dog.name }}</span></p>
                 <p class = "data">Role: <span>{{ dog.breed }}</span></p>
@@ -30,24 +30,19 @@
     </main>
 </template>
 
-<script>
-    /*
-        The defineNuxtComponent gets us access to the asyncData property.
-        This is the first function that is called by nuxt when the page is called.
-        We can use this to pre-load the data to make it available to the user.
-    */
-    export default defineNuxtComponent({
-        async asyncData() {
-            // Despite using the options API, this.$route is not available in asyncData.
-            const route = useRoute()
-            const dog = await $fetch(useRuntimeConfig().public.serverURL + '/dogs/' + route.params.id)
-
-            return {
-                dog
-            }
-        }
-    })
+<script setup>
     
+    const route = useRoute()
+    const id = route.params.id
+    // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
+    const { data: dog } = await useFetch(useRuntimeConfig().public.serverURL + '/dogs/' + id)
+    
+    const getSrc = (name) => {
+      const path = `/assets/img/people/${name}.jpeg`;
+      const modules = import.meta.globEager("/assets/img/people/*.jpeg");
+      return modules[path].default;
+    };
+
 </script>
 
 <style>

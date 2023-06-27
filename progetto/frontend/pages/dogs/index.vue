@@ -11,7 +11,7 @@
         <h1>OUR TEAM</h1>
         <h2> we are a team of people who invest in the future</h2>
         <div id="card-container">
-            <Card v-for = "dog of dogs" :title = "dog.name" :subtitle = "dog.breed" :link = "'/dogs/' + dog.id"  />
+            <Card v-for = "dog of dogs" :title = "dog.name" :subtitle = "dog.breed" :link = "'/dogs/' + dog.id" :img_link="`_nuxt/assets/img/people/${dog.name}.jpeg`" />
         </div>
     </main>
 </template>

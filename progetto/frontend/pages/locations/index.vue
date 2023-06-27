@@ -2,12 +2,14 @@
 <template>
     <main>
 
-         <NuxtLink to = "/mostrelevant" class="linksyle"> 
+         
+        <h1>Complete list of all our projects</h1>
+
+        <NuxtLink to = "/mostrelevant" class="linksyle"> 
             <div id="most_st">
                <h1> to see our top ranked projects, click here</h1>
             </div>
         </NuxtLink> 
-        <h2>complete list of all our projects</h2>
 
         <div id = "form-container">
             <label for = "projects filter">let's choose your area of interest</label>
@@ -20,7 +22,7 @@
         </div>
         
         <div id="card-container">
-            <Card v-for = "location of filtered" :title = "location.name" :subtitle = "location.city" :link = "'/locations/' + location.id" />
+            <Card v-for = "location of filtered" :title = "location.name" :subtitle = "location.city" :link = "'/locations/' + location.id" :img_link="`_nuxt/assets/img/projects/${location.name}.jpeg`"/>
         </div>
     
     </main>

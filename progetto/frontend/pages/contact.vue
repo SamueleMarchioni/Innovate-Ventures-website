@@ -14,11 +14,11 @@
             <form>
                 <div>
                     <label for = "name">Name & Surname</label>
-                    <input type = "text" id = "name" placeholder = "Name & Surname">
+                    <input type = "text" id = "name" placeholder = "Name & Surname" required>
                 </div>
                 <div>
                     <label for = "mail">E-mail</label>
-                    <input type = "email" id = "mail" placeholder = "E-mail">
+                    <input type = "email" id = "mail" placeholder = "E-mail" required>
                 </div>
                 <div id = "message-div">
                     <label for = "message">Message</label>

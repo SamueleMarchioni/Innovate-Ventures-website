@@ -5,7 +5,7 @@
 <template>
     <main>
         <div class = "info-group">
-            <img id = "main-img" src = "~/assets/img/economia.jpg" />
+            <img v-bind:src="getSrc(area.name)" />
             <div id = "data-container">
                 <p class = "data"> <h1><span>{{ area.name }}</span></h1></p>
             </div>
@@ -23,24 +23,19 @@
     </main>
 </template>
 
-<script>
-    /*
-        The defineNuxtComponent gets us access to the asyncData property.
-        This is the first function that is called by nuxt when the page is called.
-        We can use this to pre-load the data to make it available to the user.
-    */
-    export default defineNuxtComponent({
-        async asyncData() {
-            // Despite using the options API, this.$route is not available in asyncData.
-            const route = useRoute()
-            const area = await $fetch(useRuntimeConfig().public.serverURL + '/areas/' + route.params.id)
-
-            return {
-                area
-            }
-        }
-    })
+<script setup>
     
+    const route = useRoute()
+    const id = route.params.id
+    // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
+    const { data: area } = await useFetch(useRuntimeConfig().public.serverURL + '/areas/' + id)
+    
+    const getSrc = (name) => {
+      const path = `/assets/img/${name}.jpeg`;
+      const modules = import.meta.globEager("/assets/img/*.jpeg");
+      return modules[path].default;
+    };
+
 </script>
 
 <style>

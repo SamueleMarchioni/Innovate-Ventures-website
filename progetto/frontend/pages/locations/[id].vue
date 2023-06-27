@@ -11,7 +11,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
 <template>
     <main>
         <div class = "info-group">
-            <img id = "main-img" src = "~/assets/img/progetto.png" />
+            <img  v-bind:src="getSrc(location.name)" />
             <div id = "data-container">
                 <p class = "data">Name: <span>{{ location.name }}</span></p>
                 <p class = "data">Area: <span>{{ location.city }}</span></p>
@@ -35,23 +35,19 @@ import SmallCardArea from '~/components/smallCardArea.vue';
     </main>
 </template>
 
-<script >
-    /*
-        The defineNuxtComponent gets us access to the asyncData property.
-        This is the first function that is called by nuxt when the page is called.
-        We can use this to pre-load the data to make it available to the user.
-    */
-    export default defineNuxtComponent({
-    async asyncData() {
-        // Despite using the options API, this.$route is not available in asyncData.
-        const route = useRoute();
-        const location = await $fetch(useRuntimeConfig().public.serverURL + "/locations/" + route.params.id);
-        return {
-            location
-        };
-    }
-})
+<script setup>
     
+    const route = useRoute()
+    const id = route.params.id
+    // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
+    const { data: location } = await useFetch(useRuntimeConfig().public.serverURL + '/locations/' + id)
+    
+    const getSrc = (name) => {
+      const path = `/assets/img/projects/${name}.jpeg`;
+      const modules = import.meta.globEager("/assets/img/projects/*.jpeg");
+      return modules[path].default;
+    };
+
 </script>
 
 <style>

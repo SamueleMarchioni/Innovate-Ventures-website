@@ -9,7 +9,7 @@ import CardArea from '~/components/CardArea.vue';
        
         <h1> here you can find our areas of investement</h1>
         <div id="card-container">
-            <CardArea v-for = "area of areas" :title = "area.name" :link = "'/areas/' + area.id" />
+            <CardArea v-for = "area of areas" :title = "area.name" :link = "'/areas/' + area.id" :imm_link="`_nuxt/assets/img/${area.name}.jpeg`" />
         </div>
     </main>
 </template>
