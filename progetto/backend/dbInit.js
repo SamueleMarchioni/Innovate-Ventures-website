@@ -114,7 +114,7 @@ export default async (models) => {
             city: "Economy",
             areaId: area0.id,
             dogId : dog0.id,
-            description: "An early-stage startup developing a cutting-edge financial technology platform that disrupts traditional banking services by providing seamless digital banking solutions, advanced analytics, and personalized financial management tools.",
+            description: "An early-stage startup is at the forefront of the financial technology revolution. Their cutting-edge platform disrupts traditional banking services by providing seamless digital banking solutions. Through advanced analytics and personalized financial management tools, they empower individuals and businesses to take control of their finances. By leveraging technology, they enhance accessibility, convenience, and efficiency in the financial industry, revolutionizing the way people manage their money.",
             most : 1,
             area_selection : 1
         },
@@ -123,7 +123,7 @@ export default async (models) => {
             city: "Economy ",
             areaId: area0.id,
             dogId : dog1.id,
-            description: "A growth-stage company focused on renewable energy solutions, developing advanced solar panel technology and energy storage systems that increase efficiency and affordability, paving the way for a more sustainable future.",
+            description: "A growth-stage company is committed to driving the clean energy transition. They focus on developing advanced solar panel technology and energy storage systems. Their innovations increase the efficiency and affordability of renewable energy, making it a viable and sustainable alternative to traditional energy sources. By reducing carbon emissions and dependence on fossil fuels, they contribute to a cleaner and more sustainable future.",
             most : 0,
             area_selection : 1
         },
@@ -132,7 +132,7 @@ export default async (models) => {
             city: "Economy ",
             areaId: area0.id,
             dogId : dog2.id,
-            description: "A technology-driven startup that applies artificial intelligence and automation to optimize manufacturing processes, increasing productivity and reducing costs for industries ranging from automotive to electronics.",
+            description: "A technology-driven startup combines artificial intelligence and automation to revolutionize manufacturing processes. Their innovative solutions optimize production lines, reduce waste, and improve overall efficiency. By leveraging AI algorithms, they enable predictive maintenance, enhance quality control, and streamline operations across industries ranging from automotive to electronics. Their smart manufacturing technologies lead to increased productivity, reduced costs, and improved competitiveness.",
             most : 0,
             area_selection : 1
         },
@@ -141,7 +141,7 @@ export default async (models) => {
             city: "Economy ",
             areaId: area0.id,
             dogId : dog3.id,
-            description: "A rapidly growing e-commerce platform that leverages AI and machine learning algorithms to personalize the online shopping experience, improving product recommendations, and enhancing customer satisfaction.",
+            description: "A rapidly growing e-commerce platform is reshaping the way people shop online. They harness the power of AI and machine learning algorithms to personalize the entire online shopping experience. Through sophisticated data analysis and customer profiling, they deliver highly tailored product recommendations, personalized promotions, and seamless user interfaces. By enhancing customer satisfaction and engagement, they disrupt traditional retail models and set new standards for e-commerce.",
             most : 0,
             area_selection : 1
         },
@@ -150,7 +150,7 @@ export default async (models) => {
             city: "Economy ",
             areaId: area0.id,
             dogId : dog4.id,
-            description: "A mature-stage company revolutionizing supply chain management through the use of blockchain technology, enabling transparent and secure transactions, enhancing traceability, and minimizing operational inefficiencies.",
+            description: "A mature-stage company is revolutionizing supply chain management through blockchain technology. They have created a decentralized and transparent system that ensures secure and traceable transactions throughout the supply chain. By leveraging blockchain's immutable ledger and smart contracts, they eliminate intermediaries, reduce fraud, and enhance supply chain efficiency. Their solution fosters trust, facilitates real-time tracking, and minimizes operational inefficiencies, benefiting industries and businesses across the globe.",
             most : 1,
             area_selection : 1
         },
@@ -159,7 +159,7 @@ export default async (models) => {
             city: "Tourism ",
             areaId: area1.id,
             dogId : dog5.id,
-            description: "An early-stage startup building a comprehensive online platform that aggregates unique travel experiences from various local providers, offering travelers a one-stop-shop for discovering and booking authentic and immersive experiences worldwide.",
+            description: "An early-stage startup aims to revolutionize the way people discover and book travel experiences. Their comprehensive online platform aggregates a wide range of unique and authentic experiences from local providers worldwide. They curate these experiences, ensuring high quality and diversity to cater to the varied interests of travelers. By providing a convenient one-stop-shop for booking, they simplify the travel planning process and offer a gateway to memorable and immersive travel experiences.",
             most : 1,
             area_selection : 2
         },
@@ -168,7 +168,7 @@ export default async (models) => {
             city: "Tourism ",
             areaId: area1.id,
             dogId : dog6.id,
-            description: "A growth-stage company that focuses on eco-friendly accommodations, leveraging innovative construction techniques and renewable energy sources to develop sustainable hotels and resorts in popular tourist destinations.",
+            description: "A growth-stage company is dedicated to developing eco-friendly accommodations in popular tourist destinations. They employ innovative construction techniques, sustainable materials, and renewable energy sources to create environmentally conscious hotels and resorts. By integrating sustainability into the core of their operations, they offer travelers the opportunity to experience luxury and comfort while minimizing their environmental impact. Their sustainable accommodations serve as beacons of responsible tourism and inspire others to follow suit.",
             most : 0,
             area_selection : 2
         },
@@ -177,7 +177,7 @@ export default async (models) => {
             city: "Tourism ",
             areaId: area1.id,
             dogId : dog7.id,
-            description: "A technology startup that develops a mobile app connecting adventure enthusiasts with local adventure tour operators, offering seamless booking, real-time itinerary updates, and safety features for adrenaline-fueled experiences.",
+            description: "A technology startup caters to the needs of adventure enthusiasts by connecting them with local adventure tour operators through a user-friendly mobile app. Their platform offers seamless booking, real-time itinerary updates, and safety features that ensure adrenaline-fueled experiences are both thrilling and secure. By leveraging technology, they enhance the convenience and safety of adventure tourism, enabling travelers to embark on thrilling escapades with peace of mind.",
             most : 0,
             area_selection : 2
         },
@@ -186,7 +186,7 @@ export default async (models) => {
             city: "Tourism ",
             areaId: area1.id,
             dogId : dog8.id,
-            description: "A mature-stage company specializing in virtual reality (VR) travel experiences, offering individuals the opportunity to explore iconic landmarks and destinations from the comfort of their homes, providing an immersive and accessible travel alternative.",
+            description: "A mature-stage company specializes in bringing travel experiences to individuals through virtual reality (VR) technology. Their immersive VR travel experiences allow people to explore iconic landmarks and destinations from the comfort of their homes. With stunning visuals, interactive elements, and informative narratives, they provide an accessible and engaging travel alternative. Their virtual travel experiences bridge the gap between physical travel limitations and the desire to explore the world, opening up new horizons for global connectivity.",
             most : 0,
             area_selection : 2
         },
@@ -195,7 +195,7 @@ export default async (models) => {
             city: "Tourism ",
             areaId: area1.id,
             dogId : dog9.id,
-            description: "An innovative platform that combines data analytics, AI, and personalized recommendations to assist destination management organizations in attracting tourists, optimizing marketing strategies, and enhancing visitor experiences.",
+            description: "An innovative platform assists destination management organizations in optimizing tourism strategies and enhancing visitor experiences. By leveraging data analytics, AI algorithms, and personalized recommendations, they provide valuable insights to attract tourists, identify emerging trends, and tailor marketing campaigns. Their platform enables destinations to create personalized experiences, improve visitor satisfaction, and boost the overall economic impact of tourism.",
             most : 1,
             area_selection : 2
         },
@@ -204,7 +204,7 @@ export default async (models) => {
             city: "Health ",
             areaId: area2.id,
             dogId : dog0.id,
-            description: "An early-stage startup developing a telemedicine platform that connects patients with healthcare providers, enabling remote consultations, digital prescriptions, and remote monitoring, improving access to healthcare services.",
+            description: "This early-stage startup is developing a telemedicine platform that connects patients with healthcare providers. Their platform enables remote consultations, digital prescriptions, and remote monitoring, improving access to healthcare services, especially in underserved areas. By leveraging technology, they bridge the gap between patients and doctors, making healthcare more accessible, convenient, and efficient.",
             most : 1,
             area_selection : 3
         },
@@ -213,7 +213,7 @@ export default async (models) => {
             city: "Health ",
             areaId: area2.id,
             dogId : dog1.id,
-            description: "A growth-stage company leveraging genetic testing and data analysis to provide personalized diagnostic solutions, helping doctors tailor treatments to individual patients and optimize healthcare outcomes.",
+            description: "This growth-stage company specializes in personalized diagnostic solutions. They leverage genetic testing and data analysis to provide tailored medical insights, helping doctors optimize treatments for individual patients. By incorporating genetic information, they enhance precision medicine, improving patient outcomes and transforming the way diseases are diagnosed and managed.",
             most : 0,
             area_selection : 3
         },
@@ -222,7 +222,7 @@ export default async (models) => {
             city: "Health ",
             areaId: area2.id,
             dogId : dog2.id,
-            description: "A technology-driven startup using artificial intelligence and machine learning algorithms to accelerate the drug discovery process, analyzing vast amounts of data and identifying potential drug candidates for various diseases.",
+            description: "This technology-driven startup is revolutionizing the drug discovery process. They harness the power of artificial intelligence and machine learning algorithms to analyze vast amounts of data and identify potential drug candidates for various diseases. By accelerating the research and development of new medications, they aim to address unmet medical needs and improve the quality of life for patients worldwide.",
             most : 0,
             area_selection : 3
         },
@@ -231,7 +231,7 @@ export default async (models) => {
             city: "Health ",
             areaId: area2.id,
             dogId : dog3.id,
-            description: "A mature-stage company offering digital mental health solutions, including mobile apps and online therapy platforms, providing accessible and personalized mental health support to individuals globally.",
+            description: "This mature-stage company focuses on providing digital mental health solutions. They offer mobile apps and online therapy platforms that provide accessible and personalized mental health support. By leveraging technology, they break down barriers to accessing mental healthcare, offer convenient and confidential support, and empower individuals to prioritize their mental well-being.",
             most : 0,
             area_selection : 3
         },
@@ -240,7 +240,7 @@ export default async (models) => {
             city: "Health",
             areaId: area2.id,
             dogId : dog4.id,
-            description: "An innovative company developing wearable devices that track and monitor vital signs, enabling individuals to proactively manage their health, detect anomalies, and share data with healthcare professionals for timely interventions.",
+            description: "This innovative company develops wearable devices that track and monitor vital signs. Their wearable technology enables individuals to proactively manage their health, detect anomalies, and share data with healthcare professionals for timely interventions. By empowering individuals to take control of their well-being, they promote preventive healthcare and facilitate early detection of health issues.",
             most : 0,
             area_selection : 3
         }

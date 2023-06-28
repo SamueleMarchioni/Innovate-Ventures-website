@@ -4,7 +4,7 @@
         <h1> have a look on our top ranked projects</h1>
 
         <div id="card-container">
-            <Card v-for = "location of filtered" :title = "location.name" :subtitle = "location.city" :link = "'/locations/' + location.id" :img_link="`_nuxt/assets/img/projects/${location.name}.jpeg`" />
+            <CardLoc v-for = "location of filtered" :title = "location.name" :subtitle = "location.city" :link = "'/locations/' + location.id" :img_link="`_nuxt/assets/img/projects/${location.name}.jpeg`" />
         </div>
        
     </main>

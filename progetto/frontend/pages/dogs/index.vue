@@ -8,8 +8,10 @@
             Form used to filter the list by age.
         -->
         
-        <h1>OUR TEAM</h1>
-        <h2> we are a team of people who invest in the future</h2>
+        <h1>Our team</h1>
+        <h2> At [Venture Capital Firm Name], our success is driven by the collective brilliance and diverse expertise of our exceptional team. Each member brings a unique set of skills, experiences, and perspectives, contributing to a dynamic and forward-thinking environment that fuels our ability to identify and support groundbreaking startups.
+
+Our team is led by visionary leaders who have a proven track record of success in entrepreneurship, investment, and strategic guidance. With their wealth of experience, they provide invaluable insights and strategic direction, ensuring that our investment decisions align with our long-term objectives and deliver exceptional returns.</h2>
         <div id="card-container">
             <Card v-for = "dog of dogs" :title = "dog.name" :subtitle = "dog.breed" :link = "'/dogs/' + dog.id" :img_link="`_nuxt/assets/img/people/${dog.name}.jpeg`" />
         </div>
@@ -66,10 +68,6 @@
 
     h1{
         color:  rgb(27, 103, 202);
-    }
-
-    h2{
-        color:rgb(11, 139, 182);
     }
 
 

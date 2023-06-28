@@ -10,12 +10,13 @@
         This is an example of class/style binding. It allows to change dynamically the style of an element based on the boolean value.
         There is also another way to achieve this by using the array notation. More here: https://vuejs.org/guide/essentials/class-and-style.html#class-and-style-bindings
     -->
-    <div :class = "{'info-group': !isReverse, 'reverse-info-group': isReverse}">
+    <div id='cont' :class = "{'info-group': !isReverse, 'reverse-info-group': isReverse}">
         <img :src = "image" />
         <p class="desc">
            {{ description }}
         </p>
     </div>
+    
 </template>
 
 <script setup>
@@ -44,6 +45,10 @@
     .main-img {
         width: 30%;
         height: auto;
+    }
+    
+    #cont{
+        border:1px grey;
     }
 
     .info-group {

@@ -5,11 +5,11 @@
     <header>
         <NuxtLink to = "/"> <img id="img" src='~/assets/img/shield.png' /> </NuxtLink>
         <nav>
-            <NuxtLink to = "/dogs" class="linksyle">PEOPLE</NuxtLink>
-            <NuxtLink to = "/locations" class="linksyle">PROJECTS</NuxtLink>
-            <NuxtLink to = "/areas" class="linksyle">AREAS</NuxtLink>
-            <NuxtLink to = "/about" class="linksyle">ABOUT US</NuxtLink>
-            <NuxtLink to = "/contact" class="linksyle">CONTACT US</NuxtLink>
+            <NuxtLink to = "/dogs" class="links">PEOPLE</NuxtLink>
+            <NuxtLink to = "/locations" class="links">PROJECTS</NuxtLink>
+            <NuxtLink to = "/areas" class="links">AREAS</NuxtLink>
+            <NuxtLink to = "/about" class="links">ABOUT US</NuxtLink>
+            <NuxtLink to = "/contact" class="links">CONTACT US</NuxtLink>
         </nav>
     </header>
 </template>
@@ -17,18 +17,19 @@
 <style>
     header
     {
-        background-color: rgb(11, 139, 182);
+        background-color: #03bfcb;
     }
 
     header
     {
         padding: 0px 20px 0px 20px;
         margin-bottom: 5px;
-        border-bottom: 5px solid rgb(16, 16, 139);
+        border-bottom: 5px solid #231e39;
         
         display: flex;
         justify-content: space-between;
         align-items: center;
+       
     }
 
     nav {
@@ -36,7 +37,7 @@
         gap: 40px;
         font-size: 17pt;
         font-weight: bold;
-        color: white;
+        color: #231e39;
     
     }
     #img{
@@ -46,13 +47,16 @@
         width: 50px;
         margin: auto;
     }
-    .linksyle:hover{
+
+    .links{
+        color: #231e39;
+        text-decoration: none;
+    }
+
+    .links:hover{
         color:rgb(142, 205, 226);
 
         
     }
-    .linksyle{
-        color: white;
-        text-decoration: none;
-    }
+   
 </style>

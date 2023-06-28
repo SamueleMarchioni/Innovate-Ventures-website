@@ -1,13 +1,3 @@
-<!--
-    Card to display information in the list page.
-    This component could be achieved with the SmallCard component by using a <slot> to insert the div with the image. The solution used here allows for better control of the layout.
-    Since the information shown can be categorized into title and subtitle, it was preferred to use only one component for both dogs and location.
-
-    PROPS:
-    - title: main information to display
-    - subtitle: second information to display
-    - link: link to the page description
--->
 <template>
     <div class="card">
         <div class="image-container">
@@ -16,11 +6,6 @@
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>
         <NuxtLink :to = "link" class="linkstyle"> see more information</NuxtLink>
-        <div class="buttons">
-        <button class="primary">
-            Message
-        </button>
-        </div>
     </div>
 </template>
 
@@ -84,11 +69,6 @@ button.primary {
 }
 .linkstyle{
         color: #03bfcb;
-        text-decoration :none ;
-}
-
-.linkstyle:hover{
-    color:white;
 }
 
 </style>

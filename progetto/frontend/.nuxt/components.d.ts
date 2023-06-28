@@ -3,6 +3,7 @@ declare module 'vue' {
   export interface GlobalComponents {
     'Card': typeof import("../components/Card.vue")['default']
     'CardArea': typeof import("../components/CardArea.vue")['default']
+    'CardLoc': typeof import("../components/CardLoc.vue")['default']
     'SmallCard': typeof import("../components/SmallCard.vue")['default']
     'SmallCardArea': typeof import("../components/SmallCardArea.vue")['default']
     'TextImage': typeof import("../components/TextImage.vue")['default']
@@ -28,6 +29,7 @@ declare module 'vue' {
     'Body': typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
     'LazyCard': typeof import("../components/Card.vue")['default']
     'LazyCardArea': typeof import("../components/CardArea.vue")['default']
+    'LazyCardLoc': typeof import("../components/CardLoc.vue")['default']
     'LazySmallCard': typeof import("../components/SmallCard.vue")['default']
     'LazySmallCardArea': typeof import("../components/SmallCardArea.vue")['default']
     'LazyTextImage': typeof import("../components/TextImage.vue")['default']
@@ -56,6 +58,7 @@ declare module 'vue' {
 
 export const Card: typeof import("../components/Card.vue")['default']
 export const CardArea: typeof import("../components/CardArea.vue")['default']
+export const CardLoc: typeof import("../components/CardLoc.vue")['default']
 export const SmallCard: typeof import("../components/SmallCard.vue")['default']
 export const SmallCardArea: typeof import("../components/SmallCardArea.vue")['default']
 export const TextImage: typeof import("../components/TextImage.vue")['default']
@@ -81,6 +84,7 @@ export const Html: typeof import("../node_modules/nuxt/dist/head/runtime/compone
 export const Body: typeof import("../node_modules/nuxt/dist/head/runtime/components")['Body']
 export const LazyCard: typeof import("../components/Card.vue")['default']
 export const LazyCardArea: typeof import("../components/CardArea.vue")['default']
+export const LazyCardLoc: typeof import("../components/CardLoc.vue")['default']
 export const LazySmallCard: typeof import("../components/SmallCard.vue")['default']
 export const LazySmallCardArea: typeof import("../components/SmallCardArea.vue")['default']
 export const LazyTextImage: typeof import("../components/TextImage.vue")['default']

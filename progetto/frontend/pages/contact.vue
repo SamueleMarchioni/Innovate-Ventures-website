@@ -44,9 +44,10 @@
         display: flex;
         flex-direction: column;
         padding: 15px;
-        border: 2px rgb(255, 102, 0) dashed;
+        border: 2px grey dashed;
         border-radius: 5px;
         row-gap: 20px;
+        background-color: #03c8d6;
     }
 
     form div {

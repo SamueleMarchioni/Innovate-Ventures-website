@@ -7,7 +7,12 @@ import CardArea from '~/components/CardArea.vue';
 <template>
     <main>
        
-        <h1> here you can find our areas of investement</h1>
+        <h1> Areas of investment</h1>
+        <h2>
+            At [Venture Capital Firm Name], we are driven by a strong belief in the power of innovation and the transformative potential of visionary entrepreneurs. With a deep understanding of the dynamic landscape of the investment world, we have carefully chosen our areas of investment to strategically position ourselves for long-term success and impactful returns.
+            We recognize that focusing our efforts on specific sectors allows us to develop a deep expertise and a comprehensive understanding of the unique challenges and opportunities within those industries. This focused approach enables us to identify and support the most promising startups, providing them with the necessary resources, guidance, and capital to thrive and disrupt their respective markets.
+        </h2>
+
         <div id="card-container">
             <CardArea v-for = "area of areas" :title = "area.name" :link = "'/areas/' + area.id" :imm_link="`_nuxt/assets/img/${area.name}.jpeg`" />
         </div>
@@ -46,15 +51,6 @@ import CardArea from '~/components/CardArea.vue';
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
 
-    .card {
-        margin-left: -10px;
-        transition: margin-left 200ms;
-    }
-
-    .card:hover+card{
-        margin-left: -1px;
-    }
-
     main
     {
         display: flex;
@@ -62,6 +58,11 @@ import CardArea from '~/components/CardArea.vue';
         justify-content: center;
         align-content: flex-start;
         gap: 10px;
+        text-align: center;
+    
     }
+
+
+
 
 </style>

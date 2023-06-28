@@ -7,7 +7,7 @@
         <div class = "info-group">
             <img v-bind:src="getSrc(area.name)" />
             <div id = "data-container">
-                <p class = "data"> <h1><span>{{ area.name }}</span></h1></p>
+                <p class = "data"> <span>{{ area.name }}</span></p>
             </div>
         </div>
         <p id = "description" v-html = "newLineOnFullStop(area.description)"></p>
@@ -65,16 +65,23 @@
 
     .data {
         font-weight: bolder;
-        font-size: 20pt
+        font-size: 20pt;
+        color:rgb(27, 103, 202);
+
     }
 
     .data span {
         font-weight: 100;
-        font-size: 15pt;
+        font-size: 20pt;
+        color:  rgb(27, 103, 202);
+        
     }
 
     #description {
         padding: 0 20px 0 20px;
-        font-size: 15pt;
+        font-size: 18pt;
+        color: rgb(14, 144, 161);
+        justify-content: center;
+     
     }
 </style>

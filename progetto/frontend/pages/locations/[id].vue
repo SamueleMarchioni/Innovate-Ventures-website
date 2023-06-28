@@ -82,16 +82,23 @@ import SmallCardArea from '~/components/smallCardArea.vue';
 
     .data {
         font-weight: bolder;
-        font-size: 20pt
+        font-size: 20pt;
+        color:rgb(27, 103, 202);
+
     }
 
     .data span {
         font-weight: 100;
-        font-size: 15pt;
+        font-size: 20pt;
+        color:  rgb(27, 103, 202);
+        
     }
 
     #description {
         padding: 0 20px 0 20px;
-        font-size: 15pt;
+        font-size: 18pt;
+        color: rgb(14, 144, 161);
+        
+     
     }
 </style>

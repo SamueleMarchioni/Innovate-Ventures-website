@@ -49,7 +49,7 @@
         display: flex;
         flex-flow: column;
         padding: 10px;
-        border: solid rgb(0, 115, 255);
+        border: #231e39;
         width: fit-content;
         height: fit-content;
         align-items:center;
@@ -57,17 +57,15 @@
 
     .title {
     margin: 10px 0;
-    color: rgb(27, 103, 202);
 }
 
 .subtitle {
     margin: 5px 0;
     text-transform: uppercase;
-    color: rgb(14, 95, 161);
 }
 
  .linkstyle{
-        color: rgb(226, 109, 67);
+        color: #03bfcb;
 }
 
 </style>

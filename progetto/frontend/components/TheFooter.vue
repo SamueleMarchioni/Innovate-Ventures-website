@@ -12,15 +12,16 @@
 <style>
     footer
     {
-        background-color:rgb(11, 139, 182);
+        background-color: #03bfcb;
         flex-shrink: 0;
         text-align: center;
         margin-top: 1%;
-        border-bottom: 5px solid rgb(16, 16, 139);
+        border-bottom: 5px solid #231e39;
         padding: 5px;
-
+        bottom: 0;
         min-height: 1vh;
     }
+    
     p
     {
         color: white;

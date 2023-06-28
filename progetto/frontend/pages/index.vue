@@ -43,8 +43,8 @@
 
 <style>
     #main-img {
-    width: 30%;
-    max-width: 1000px;
+    width: 100%;
+    max-height:700px;
     height: auto;
     }
 

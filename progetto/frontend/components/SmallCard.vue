@@ -9,10 +9,10 @@
 -->
 
 <template>
-    <div class="card">
+    <div class="cardina">
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>
-        <NuxtLink :to = "link" ><button>Open description</button></NuxtLink>
+        <NuxtLink :to = "link" ><button>Go to the page</button></NuxtLink>
     </div>
 </template>
 
@@ -36,13 +36,19 @@
         height: 250px;
     }
 
-    .card
+    .cardina
     {
         display: flex;
         flex-flow: column;
         padding: 20px;
         width: fit-content;
         height: fit-content;
+        border:3px solid #03bfcb;
+        background-color: #231e39;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+
+        
     }
 
     .title
@@ -51,12 +57,6 @@
         font-weight: bold;
     }
 
-    .button {
-    background-color: #198991;
-    border: 1px solid #198991;
-    border-radius: 3px;
-    color: #231e39;
-    padding: 10px 25px;
-}
+    
 
 </style>
