@@ -86,7 +86,7 @@
 
     
     .titolo{
-        margin-top: 50px;
+        margin-top: 10px;
         color:  rgb(27, 103, 202);
     }
 
