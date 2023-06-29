@@ -2,9 +2,9 @@
 <template>
     <main>
 
-         
+        <div class="titolo"> 
         <h1>OUR PROJECTS</h1>
-
+        </div> 
         <h2>
             Our venture capital firm aims to support and nurture innovative ideas, drive market disruption, and contribute to the growth and development of impactful businesses, by investing in projects within these sectors:
             <li> <u>Market Potential:</u> We have identified these sectors as having significant market potential and opportunities for growth. By investing in projects within these sectors, we aim to capitalize on the demand for innovative solutions and services that cater to the evolving needs of consumers and businesses.</li>
@@ -85,7 +85,8 @@
     }
 
     
-    h1{
+    .titolo{
+        margin-top: 50px;
         color:  rgb(27, 103, 202);
     }
 

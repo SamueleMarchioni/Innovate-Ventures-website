@@ -14,3 +14,4 @@ export default defineNuxtConfig({
         baseURL: '/test'  // Name of your GitHub Repository
     }
 })
+

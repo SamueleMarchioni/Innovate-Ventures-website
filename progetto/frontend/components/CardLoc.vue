@@ -30,7 +30,7 @@
     box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
     color: #b3b8cd;
     padding-top: 30px;
-    position: relative;
+    position: static;
     width: 350px;
     max-width: 100%;
     text-align: center;
