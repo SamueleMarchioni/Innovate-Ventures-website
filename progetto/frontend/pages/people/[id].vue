@@ -1,15 +1,15 @@
 <!--
-    Page description for a single dog.
-    As described in the SmallCard component, the same component was used for both Dog and Location since they have the same structure.
+    Page description for a single person.
+    As described in the SmallCard component, the same component was used for both person and project since they have the same structure.
 -->
 <template>
     <main>
         <div class = "info-group">
-            <img v-bind:src="getSrc(dog.name)" />
+            <img v-bind:src="getSrc(person.name)" />
             <div id = "data-container">
-                <p class = "data">Name: <span>{{ dog.name }}</span></p>
-                <p class = "data">Role: <span>{{ dog.breed }}</span></p>
-                <p class = "data">Age: <span>{{ dog.age }}</span></p>
+                <p class = "data">Name: <span>{{ person.name }}</span></p>
+                <p class = "data">Role: <span>{{ person.breed }}</span></p>
+                <p class = "data">Age: <span>{{ person.age }}</span></p>
             </div>
         </div>
         
@@ -19,13 +19,13 @@
             This function is a composable that is available anywhere, without requiring to be imported.
         -->
 
-        <p id = "description" v-html = "newLineOnFullStop(dog.description)"></p>
+        <p id = "description" v-html = "newLineOnFullStop(person.description)"></p>
 
       
          <h1 id="proj">projects supervised:</h1>
          
-         <div id = "dog-card-container">
-            <SmallCard v-for = "location of dog.locations" :link = "'/locations/' + location.id" :title = "location.name" :subtitle = "location.city"/>
+         <div id = "person-card-container">
+            <SmallCard v-for = "project of person.projects" :link = "'/projects/' + project.id" :title = "project.name" :subtitle = "project.city"/>
         </div>
     </main>
 </template>
@@ -35,7 +35,7 @@
     const route = useRoute()
     const id = route.params.id
     // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
-    const { data: dog } = await useFetch(useRuntimeConfig().public.serverURL + '/dogs/' + id)
+    const { data: person } = await useFetch(useRuntimeConfig().public.serverURL + '/people/' + id)
     
     const getSrc = (name) => {
       const path = `/assets/img/people/${name}.jpeg`;

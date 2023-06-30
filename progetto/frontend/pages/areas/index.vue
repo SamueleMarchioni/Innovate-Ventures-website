@@ -1,8 +1,8 @@
 <!--
 
 import CardArea from '~/components/CardArea.vue';
-    Page with the list of all the dogs.
-    As described in the Card component, the same component was used for both Dog and Location since they have the same structure.
+    Page with the list of all the people.
+    As described in the Card component, the same component was used for both person and project since they have the same structure.
 -->
 <template>
     <main>

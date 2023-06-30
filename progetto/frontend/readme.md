@@ -92,10 +92,10 @@ The project contains:
   - /
   - /contact
   - /about
-  - /dogs
-  - /dogs/:id
-  - /locations
-  - /locations/:id
+  - /people
+  - /people/:id
+  - /projects
+  - /projects/:id
 - The server (the same that was available in a previous repository)
 
 Most of the content is commented to explain how things works.

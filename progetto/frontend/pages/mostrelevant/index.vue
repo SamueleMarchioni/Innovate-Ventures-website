@@ -4,7 +4,7 @@
         <h1> have a look on our top ranked projects</h1>
 
         <div id="card-container">
-            <CardLoc v-for = "location of filtered" :title = "location.name" :subtitle = "location.city" :link = "'/locations/' + location.id" :img_link="`_nuxt/assets/img/projects/${location.name}.jpeg`" />
+            <CardLoc v-for = "project of filtered" :title = "project.name" :subtitle = "project.city" :link = "'/projects/' + project.id" :img_link="`_nuxt/assets/img/projects/${project.name}.jpeg`" />
         </div>
        
     </main>
@@ -12,14 +12,14 @@
 
 <script setup>
     // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
-    const { data: locations } = await useFetch(useRuntimeConfig().public.serverURL + '/locations')
+    const { data: projects } = await useFetch(useRuntimeConfig().public.serverURL + '/projects')
     
     const filtered = computed(() => {
        
          const arr = []
 
         // Filtering the list
-        for(let loc of locations.value) {
+        for(let loc of projects.value) {
             if(loc.most == 1)
                 arr.push(loc)
         }

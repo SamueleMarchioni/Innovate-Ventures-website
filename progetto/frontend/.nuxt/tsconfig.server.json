@@ -12,51 +12,51 @@
     "jsxFragmentFactory": "Fragment",
     "paths": {
       "#imports": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/types/nitro-imports"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/.nuxt/types/nitro-imports"
       ],
       "#paths": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/core/runtime/nitro/paths"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend"
       ],
       "~/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/*"
       ],
       "@": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend"
       ],
       "@/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/*"
       ],
       "~~": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend"
       ],
       "~~/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/*"
       ],
       "@@": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend"
       ],
       "@@/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/*"
       ],
       "assets": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/assets"
       ],
       "assets/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets/*"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/assets/*"
       ],
       "public": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/public"
       ],
       "public/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public/*"
+        "/Users/pippomonti99/Desktop/Test/progetto/frontend/public/*"
       ]
     }
   },
   "include": [
-    "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/types/nitro-nuxt.d.ts",
+    "/Users/pippomonti99/Desktop/Test/progetto/frontend/.nuxt/types/nitro-nuxt.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"

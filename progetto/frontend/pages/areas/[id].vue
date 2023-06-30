@@ -1,6 +1,6 @@
 <!--
-    Page description for a single dog.
-    As described in the SmallCard component, the same component was used for both Dog and Location since they have the same structure.
+    Page description for a single person.
+    As described in the SmallCard component, the same component was used for both person and project since they have the same structure.
 -->
 <template>
     <main>
@@ -17,8 +17,8 @@
             It used because of the 'newLineOnFullStop' function that returns a string with the <br> tags.
             This function is a composable that is available anywhere, without requiring to be imported.
         -->
-        <div id = "dog-card-container">
-            <SmallCard v-for = "location of area.locations" :link = "'/locations/' + location.id" :title = "location.name" :subtitle = "location.city"/>
+        <div id = "person-card-container">
+            <SmallCard v-for = "project of area.projects" :link = "'/projects/' + project.id" :title = "project.name" :subtitle = "project.city"/>
         </div>
     </main>
 </template>

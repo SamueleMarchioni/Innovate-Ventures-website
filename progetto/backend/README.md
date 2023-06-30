@@ -13,9 +13,9 @@ When everything is ready, use:
 This will start the server. The server listen on port 3001 and the following endpoint are available:
 
 - GET
-  - /dogs - Returns all the dogs 
-  - /dogs/:id - Returns information about one dog specified by ID
-  - /locations - Returns all the locations
-  - /locations/:id - Returns information about one location specified
+  - /people - Returns all the people 
+  - /people/:id - Returns information about one person specified by ID
+  - /projects - Returns all the projects
+  - /projects/:id - Returns information about one project specified
 
 Additionally, the CORS policy is already set up to accept requests from origin "http://localhost:3000".

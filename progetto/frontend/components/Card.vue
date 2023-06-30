@@ -1,7 +1,7 @@
 <!--
     Card to display information in the list page.
     This component could be achieved with the SmallCard component by using a <slot> to insert the div with the image. The solution used here allows for better control of the layout.
-    Since the information shown can be categorized into title and subtitle, it was preferred to use only one component for both dogs and location.
+    Since the information shown can be categorized into title and subtitle, it was preferred to use only one component for both people and project.
 
     PROPS:
     - title: main information to display

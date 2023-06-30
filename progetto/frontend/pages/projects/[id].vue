@@ -5,31 +5,31 @@ import SmallCardArea from '~/components/smallCardArea.vue';
 import { SmallCard } from '~/.nuxt/components';
 
 import SmallCardArea from '~/components/smallCardArea.vue';
-    Page description for a single location.
-    As described in the SmallCard component, the same component was used for both Dog and Location since they have the same structure.
+    Page description for a single project.
+    As described in the SmallCard component, the same component was used for both person and project since they have the same structure.
 -->
 <template>
     <main>
         <div class = "info-group">
-            <img  v-bind:src="getSrc(location.name)" />
+            <img  v-bind:src="getSrc(project.name)" />
             <div id = "data-container">
-                <p class = "data">Name: <span>{{ location.name }}</span></p>
-                <p class = "data">Area: <span>{{ location.city }}</span></p>
+                <p class = "data">Name: <span>{{ project.name }}</span></p>
+                <p class = "data">Area: <span>{{ project.city }}</span></p>
             </div>
         </div>
 
-        <p id = "description1" v-html = location.description></p>
+        <p id = "description1" v-html = project.description></p>
 
         <h1 id="proj">area of concern:</h1>
         
-        <div id = "dog-card-container">
-           <SmallCardArea :title = "location.area.name" :link = "'/areas/' + location.area.id" />
+        <div id = "person-card-container">
+           <SmallCardArea :title = "project.area.name" :link = "'/areas/' + project.area.id" />
         </div>
 
         <h1 id="proj">supervisor:</h1>
         
-        <div id = "dog-card-container">
-          <SmallCard :title = "location.dog.name" :subtitle = "location.dog.breed" :link = "'/dogs/' + location.dog.id" />
+        <div id = "person-card-container">
+          <SmallCard :title = "project.person.name" :subtitle = "project.person.breed" :link = "'/people/' + project.person.id" />
         </div>
         
     </main>
@@ -40,7 +40,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
     const route = useRoute()
     const id = route.params.id
     // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
-    const { data: location } = await useFetch(useRuntimeConfig().public.serverURL + '/locations/' + id)
+    const { data: project } = await useFetch(useRuntimeConfig().public.serverURL + '/projects/' + id)
     
     const getSrc = (name) => {
       const path = `/assets/img/projects/${name}.jpeg`;
@@ -51,7 +51,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
 </script>
 
 <style>
-    #dog-card-container {
+    #person-card-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;

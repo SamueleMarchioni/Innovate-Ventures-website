@@ -28,7 +28,7 @@ async function initDB() {
 
     await db.authenticate()
 
-    models.Dog = db.define('dog', {
+    models.person = db.define('person', {
         name: {
             type: DataTypes.STRING,
             allowNull: false
@@ -47,7 +47,7 @@ async function initDB() {
         }
     })
 
-    models.Location = db.define('location', {
+    models.project = db.define('project', {
         name: {
             type: DataTypes.STRING,
             allowNull: false
@@ -85,10 +85,10 @@ async function initDB() {
         }
     })
 
-    models.Location.belongsTo(models.Dog)
-    models.Dog.hasMany(models.Location)
-    models.Location.belongsTo(models.Area)
-    models.Area.hasMany(models.Location)
+    models.project.belongsTo(models.person)
+    models.person.hasMany(models.project)
+    models.project.belongsTo(models.Area)
+    models.Area.hasMany(models.project)
     
 
     await db.sync({ force: true })
@@ -101,20 +101,20 @@ async function initDB() {
 async function initServer() {
     const models = await initDB()
 
-    app.get('/dogs', async (req, res) => {
-        const data = await models.Dog.findAll();
+    app.get('/people', async (req, res) => {
+        const data = await models.person.findAll();
 
         res.status(200).json(data)
     })
 
-    app.get('/dogs/:id', async (req, res) => {
-        const data = await models.Dog.findOne({
+    app.get('/people/:id', async (req, res) => {
+        const data = await models.person.findOne({
             where: {
                 id: req.params.id
             },
             include: [
                 {
-                    model: models.Location
+                    model: models.project
                 }
             ]
         })
@@ -127,20 +127,20 @@ async function initServer() {
         }
     })
 
-    app.get('/locations', async (req, res) => {
-        const data = await models.Location.findAll();
+    app.get('/projects', async (req, res) => {
+        const data = await models.project.findAll();
 
         res.status(200).json(data)
     })
 
-    app.get('/locations/:id', async (req, res) => {
-        const data = await models.Location.findOne({
+    app.get('/projects/:id', async (req, res) => {
+        const data = await models.project.findOne({
             where: {
                 id: req.params.id
             },
             include: [
                 {
-                    model: models.Dog
+                    model: models.person
                     
                 },
                 {
@@ -171,7 +171,7 @@ async function initServer() {
             },
             include: [
                 {
-                    model: models.Location
+                    model: models.project
                 }
             ]
         })

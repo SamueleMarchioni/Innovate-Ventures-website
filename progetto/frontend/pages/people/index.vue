@@ -1,6 +1,6 @@
 <!--
-    Page with the list of all the dogs.
-    As described in the Card component, the same component was used for both Dog and Location since they have the same structure.
+    Page with the list of all the people.
+    As described in the Card component, the same component was used for both person and project since they have the same structure.
 -->
 <template>
     <main>
@@ -13,7 +13,7 @@
 
 Our team is led by visionary leaders who have a proven track record of success in entrepreneurship, investment, and strategic guidance. With their wealth of experience, they provide invaluable insights and strategic direction, ensuring that our investment decisions align with our long-term objectives and deliver exceptional returns.</h2>
         <div id="card-container">
-            <Card v-for = "dog of dogs" :title = "dog.name" :subtitle = "dog.breed" :link = "'/dogs/' + dog.id" :img_link="`_nuxt/assets/img/people/${dog.name}.jpeg`" />
+            <Card v-for = "person of people" :title = "person.name" :subtitle = "person.breed" :link = "'/people/' + person.id" :img_link="`_nuxt/assets/img/people/${person.name}.jpeg`" />
         </div>
     </main>
 </template>
@@ -27,10 +27,10 @@ Our team is led by visionary leaders who have a proven track record of success i
     export default defineNuxtComponent({
     async asyncData() {
         // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
-        const dogs = await $fetch(useRuntimeConfig().public.serverURL + "/dogs");
+        const people = await $fetch(useRuntimeConfig().public.serverURL + "/people");
         
         return {
-            dogs
+            people
         }
     }
 })

@@ -5,8 +5,8 @@
     <header>
         <NuxtLink to = "/"> <img id="img" src='~/assets/img/shield.png' /> </NuxtLink>
         <nav>
-            <NuxtLink to = "/dogs" class="links">PEOPLE</NuxtLink>
-            <NuxtLink to = "/locations" class="links">PROJECTS</NuxtLink>
+            <NuxtLink to = "/people" class="links">PEOPLE</NuxtLink>
+            <NuxtLink to = "/projects" class="links">PROJECTS</NuxtLink>
             <NuxtLink to = "/areas" class="links">AREAS</NuxtLink>
             <NuxtLink to = "/about" class="links">ABOUT US</NuxtLink>
             <NuxtLink to = "/contact" class="links">CONTACT US</NuxtLink>

@@ -24,7 +24,7 @@ export default async (models) => {
     const area1 = await models.Area.create(areaModel[1])
     const area2 = await models.Area.create(areaModel[2])
 
-    const dogModel = [
+    const personModel = [
         {
             name: "John Smith",
             breed: "Co-Founder and CEO",
@@ -85,7 +85,7 @@ export default async (models) => {
             name: "Anna Nguyen",
             breed: "Project manager",
             age: 28,
-            description: "Anna Nguyen is a highly organized and detail-oriented project manager with a knack for overseeing complex initiatives. Her strong leadership skills and ability to coordinate cross-functional teams ensure the successful execution of the venture's projects. Anna's expertise in project planning, risk management, and resource allocation allows her to deliver projects on time and within budget, driving operational efficiency and achieving key milestones.",
+            description: "Anna Nguyen is a highly organized and detail-oriented project manager with a knack for overseeing complex initiatives. Her strong leadership skills and ability to coordinate cross-functional teams ensure the successful execution of the venture's projects. Anna's expertise in project planning, risk management, and resource alproject allows her to deliver projects on time and within budget, driving operational efficiency and achieving key milestones.",
             image:"Clooney.jpeg",
         },
         {
@@ -97,23 +97,23 @@ export default async (models) => {
         }
     ]
     
-    const dog0 = await models.Dog.create(dogModel[0])
-    const dog1 = await models.Dog.create(dogModel[1])
-    const dog2 = await models.Dog.create(dogModel[2])
-    const dog3 = await models.Dog.create(dogModel[3])
-    const dog4 = await models.Dog.create(dogModel[4])
-    const dog5 = await models.Dog.create(dogModel[5])
-    const dog6 = await models.Dog.create(dogModel[6])
-    const dog7 = await models.Dog.create(dogModel[7])
-    const dog8 = await models.Dog.create(dogModel[8])
-    const dog9 = await models.Dog.create(dogModel[9])
+    const person0 = await models.person.create(personModel[0])
+    const person1 = await models.person.create(personModel[1])
+    const person2 = await models.person.create(personModel[2])
+    const person3 = await models.person.create(personModel[3])
+    const person4 = await models.person.create(personModel[4])
+    const person5 = await models.person.create(personModel[5])
+    const person6 = await models.person.create(personModel[6])
+    const person7 = await models.person.create(personModel[7])
+    const person8 = await models.person.create(personModel[8])
+    const person9 = await models.person.create(personModel[9])
 
-    const locationModel = [
+    const projectModel = [
         {
             name: "FinTech Revolution",
             city: "Economy",
             areaId: area0.id,
-            dogId : dog0.id,
+            personId : person0.id,
             description: "An early-stage startup is at the forefront of the financial technology revolution. Their cutting-edge platform disrupts traditional banking services by providing seamless digital banking solutions. Through advanced analytics and personalized financial management tools, they empower individuals and businesses to take control of their finances. By leveraging technology, they enhance accessibility, convenience, and efficiency in the financial industry, revolutionizing the way people manage their money.",
             most : 1,
             area_selection : 1
@@ -122,7 +122,7 @@ export default async (models) => {
             name: "Clean Energy Innovators",
             city: "Economy ",
             areaId: area0.id,
-            dogId : dog1.id,
+            personId : person1.id,
             description: "A growth-stage company is committed to driving the clean energy transition. They focus on developing advanced solar panel technology and energy storage systems. Their innovations increase the efficiency and affordability of renewable energy, making it a viable and sustainable alternative to traditional energy sources. By reducing carbon emissions and dependence on fossil fuels, they contribute to a cleaner and more sustainable future.",
             most : 0,
             area_selection : 1
@@ -131,7 +131,7 @@ export default async (models) => {
             name: "Smart Manufacturing",
             city: "Economy ",
             areaId: area0.id,
-            dogId : dog2.id,
+            personId : person2.id,
             description: "A technology-driven startup combines artificial intelligence and automation to revolutionize manufacturing processes. Their innovative solutions optimize production lines, reduce waste, and improve overall efficiency. By leveraging AI algorithms, they enable predictive maintenance, enhance quality control, and streamline operations across industries ranging from automotive to electronics. Their smart manufacturing technologies lead to increased productivity, reduced costs, and improved competitiveness.",
             most : 0,
             area_selection : 1
@@ -140,7 +140,7 @@ export default async (models) => {
             name: "E-commerce Disruptor",
             city: "Economy ",
             areaId: area0.id,
-            dogId : dog3.id,
+            personId : person3.id,
             description: "A rapidly growing e-commerce platform is reshaping the way people shop online. They harness the power of AI and machine learning algorithms to personalize the entire online shopping experience. Through sophisticated data analysis and customer profiling, they deliver highly tailored product recommendations, personalized promotions, and seamless user interfaces. By enhancing customer satisfaction and engagement, they disrupt traditional retail models and set new standards for e-commerce.",
             most : 0,
             area_selection : 1
@@ -149,7 +149,7 @@ export default async (models) => {
             name: "Supply Chain Optimization",
             city: "Economy ",
             areaId: area0.id,
-            dogId : dog4.id,
+            personId : person4.id,
             description: "A mature-stage company is revolutionizing supply chain management through blockchain technology. They have created a decentralized and transparent system that ensures secure and traceable transactions throughout the supply chain. By leveraging blockchain's immutable ledger and smart contracts, they eliminate intermediaries, reduce fraud, and enhance supply chain efficiency. Their solution fosters trust, facilitates real-time tracking, and minimizes operational inefficiencies, benefiting industries and businesses across the globe.",
             most : 1,
             area_selection : 1
@@ -158,7 +158,7 @@ export default async (models) => {
             name: "Travel Experience Aggregator",
             city: "Tourism ",
             areaId: area1.id,
-            dogId : dog5.id,
+            personId : person5.id,
             description: "An early-stage startup aims to revolutionize the way people discover and book travel experiences. Their comprehensive online platform aggregates a wide range of unique and authentic experiences from local providers worldwide. They curate these experiences, ensuring high quality and diversity to cater to the varied interests of travelers. By providing a convenient one-stop-shop for booking, they simplify the travel planning process and offer a gateway to memorable and immersive travel experiences.",
             most : 1,
             area_selection : 2
@@ -167,7 +167,7 @@ export default async (models) => {
             name: "Sustainable Accommodation",
             city: "Tourism ",
             areaId: area1.id,
-            dogId : dog6.id,
+            personId : person6.id,
             description: "A growth-stage company is dedicated to developing eco-friendly accommodations in popular tourist destinations. They employ innovative construction techniques, sustainable materials, and renewable energy sources to create environmentally conscious hotels and resorts. By integrating sustainability into the core of their operations, they offer travelers the opportunity to experience luxury and comfort while minimizing their environmental impact. Their sustainable accommodations serve as beacons of responsible tourism and inspire others to follow suit.",
             most : 0,
             area_selection : 2
@@ -176,7 +176,7 @@ export default async (models) => {
             name: "Adventure Tourism Tech",
             city: "Tourism ",
             areaId: area1.id,
-            dogId : dog7.id,
+            personId : person7.id,
             description: "A technology startup caters to the needs of adventure enthusiasts by connecting them with local adventure tour operators through a user-friendly mobile app. Their platform offers seamless booking, real-time itinerary updates, and safety features that ensure adrenaline-fueled experiences are both thrilling and secure. By leveraging technology, they enhance the convenience and safety of adventure tourism, enabling travelers to embark on thrilling escapades with peace of mind.",
             most : 0,
             area_selection : 2
@@ -185,7 +185,7 @@ export default async (models) => {
             name: "Virtual Travel Experiences",
             city: "Tourism ",
             areaId: area1.id,
-            dogId : dog8.id,
+            personId : person8.id,
             description: "A mature-stage company specializes in bringing travel experiences to individuals through virtual reality (VR) technology. Their immersive VR travel experiences allow people to explore iconic landmarks and destinations from the comfort of their homes. With stunning visuals, interactive elements, and informative narratives, they provide an accessible and engaging travel alternative. Their virtual travel experiences bridge the gap between physical travel limitations and the desire to explore the world, opening up new horizons for global connectivity.",
             most : 0,
             area_selection : 2
@@ -194,7 +194,7 @@ export default async (models) => {
             name: "Destination Management Platform",
             city: "Tourism ",
             areaId: area1.id,
-            dogId : dog9.id,
+            personId : person9.id,
             description: "An innovative platform assists destination management organizations in optimizing tourism strategies and enhancing visitor experiences. By leveraging data analytics, AI algorithms, and personalized recommendations, they provide valuable insights to attract tourists, identify emerging trends, and tailor marketing campaigns. Their platform enables destinations to create personalized experiences, improve visitor satisfaction, and boost the overall economic impact of tourism.",
             most : 1,
             area_selection : 2
@@ -203,7 +203,7 @@ export default async (models) => {
             name: "Telemedicine Platform",
             city: "Health ",
             areaId: area2.id,
-            dogId : dog0.id,
+            personId : person0.id,
             description: "This early-stage startup is developing a telemedicine platform that connects patients with healthcare providers. Their platform enables remote consultations, digital prescriptions, and remote monitoring, improving access to healthcare services, especially in underserved areas. By leveraging technology, they bridge the gap between patients and doctors, making healthcare more accessible, convenient, and efficient.",
             most : 1,
             area_selection : 3
@@ -212,7 +212,7 @@ export default async (models) => {
             name: "Personalized Medicine Diagnostics",
             city: "Health ",
             areaId: area2.id,
-            dogId : dog1.id,
+            personId : person1.id,
             description: "This growth-stage company specializes in personalized diagnostic solutions. They leverage genetic testing and data analysis to provide tailored medical insights, helping doctors optimize treatments for individual patients. By incorporating genetic information, they enhance precision medicine, improving patient outcomes and transforming the way diseases are diagnosed and managed.",
             most : 0,
             area_selection : 3
@@ -221,7 +221,7 @@ export default async (models) => {
             name: "AI-Driven Drug Discovery",
             city: "Health ",
             areaId: area2.id,
-            dogId : dog2.id,
+            personId : person2.id,
             description: "This technology-driven startup is revolutionizing the drug discovery process. They harness the power of artificial intelligence and machine learning algorithms to analyze vast amounts of data and identify potential drug candidates for various diseases. By accelerating the research and development of new medications, they aim to address unmet medical needs and improve the quality of life for patients worldwide.",
             most : 0,
             area_selection : 3
@@ -230,7 +230,7 @@ export default async (models) => {
             name: "Digital Mental Health",
             city: "Health ",
             areaId: area2.id,
-            dogId : dog3.id,
+            personId : person3.id,
             description: "This mature-stage company focuses on providing digital mental health solutions. They offer mobile apps and online therapy platforms that provide accessible and personalized mental health support. By leveraging technology, they break down barriers to accessing mental healthcare, offer convenient and confidential support, and empower individuals to prioritize their mental well-being.",
             most : 0,
             area_selection : 3
@@ -239,7 +239,7 @@ export default async (models) => {
             name: "Wearable Health Monitoring",
             city: "Health",
             areaId: area2.id,
-            dogId : dog4.id,
+            personId : person4.id,
             description: "This innovative company develops wearable devices that track and monitor vital signs. Their wearable technology enables individuals to proactively manage their health, detect anomalies, and share data with healthcare professionals for timely interventions. By empowering individuals to take control of their well-being, they promote preventive healthcare and facilitate early detection of health issues.",
             most : 0,
             area_selection : 3
@@ -247,6 +247,6 @@ export default async (models) => {
 
     ]
 
-    await models.Location.bulkCreate(locationModel)
+    await models.project.bulkCreate(projectModel)
 }
 
