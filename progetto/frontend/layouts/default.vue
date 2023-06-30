@@ -14,7 +14,8 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        background-image: url("~/assets/img/sfondo.jpeg");
+        background-color: #332c53;
         
     }
 </style>
+

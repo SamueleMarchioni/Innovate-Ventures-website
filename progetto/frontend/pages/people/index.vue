@@ -66,10 +66,7 @@ Our team is led by visionary leaders who have a proven track record of success i
         align-content: flex-start;
     }
 
-    h1{
-        color:  rgb(27, 103, 202);
-    }
-
+    
 
     
 </style>

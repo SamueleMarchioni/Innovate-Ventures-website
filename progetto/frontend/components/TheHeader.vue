@@ -3,7 +3,7 @@
 -->
 <template>
     <header>
-        <NuxtLink to = "/"> <img id="img" src='~/assets/img/shield.png' /> </NuxtLink>
+        <NuxtLink to = "/"> <img id="img" src='~/assets/img/pngegg.png' /> </NuxtLink>
         <nav>
             <NuxtLink to = "/people" class="links">PEOPLE</NuxtLink>
             <NuxtLink to = "/projects" class="links">PROJECTS</NuxtLink>
@@ -32,12 +32,13 @@
         position:sticky;
         top:0;
         width:100%;
+        height:80px;
     }
 
     nav {
         display: flex;
         gap: 40px;
-        font-size: 17pt;
+        font-size: 25pt;
         font-weight: bold;
         color: #231e39;
     
@@ -45,8 +46,8 @@
     #img{
         max-width: 100%;
         max-height: 100%;
-        height: 50px;
-        width: 50px;
+        height: 70px;
+        width: 70px;
         margin: auto;
     }
 

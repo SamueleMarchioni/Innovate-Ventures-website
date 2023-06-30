@@ -49,6 +49,7 @@
     .title {
     margin: 10px 0;
     color: white;
+    font-size:30px;
     }
 
     .subtitle {

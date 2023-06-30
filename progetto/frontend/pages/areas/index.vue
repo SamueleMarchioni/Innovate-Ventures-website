@@ -6,12 +6,27 @@ import CardArea from '~/components/CardArea.vue';
 -->
 <template>
     <main>
-       
-        <h1> Areas of investment</h1>
-        <h2>
-            At [Venture Capital Firm Name], we are driven by a strong belief in the power of innovation and the transformative potential of visionary entrepreneurs. With a deep understanding of the dynamic landscape of the investment world, we have carefully chosen our areas of investment to strategically position ourselves for long-term success and impactful returns.
-            We recognize that focusing our efforts on specific sectors allows us to develop a deep expertise and a comprehensive understanding of the unique challenges and opportunities within those industries. This focused approach enables us to identify and support the most promising startups, providing them with the necessary resources, guidance, and capital to thrive and disrupt their respective markets.
-        </h2>
+        <div class="cont-ar1"> 
+            <div class="image2">
+                <img id="a1" src = "~/assets/img/invest.png" />
+            </div>
+            
+            
+            <div class="aree">
+                <h1>Areas of investment</h1>
+                <h3 style="margin-top:-15px;">At Innovate Ventures, we are driven by a strong belief in the power of innovation and the transformative potential of visionary entrepreneurs</h3>
+            </div>
+            
+            
+        </div>
+
+        <div class="sottot">
+            <h2>
+                We have carefully chosen our areas of investment to strategically position ourselves for long-term success and impactful returns.
+                We recognize that focusing our efforts on specific sectors allows us to develop a deep expertise and a comprehensive understanding of the unique challenges and opportunities within those industries. This focused approach enables us to identify and support the most promising startups, providing them with the necessary resources, guidance, and capital to thrive and disrupt their respective markets.
+            </h2>
+        </div>
+        
 
         <div id="card-container">
             <CardArea v-for = "area of areas" :title = "area.name" :link = "'/areas/' + area.id" :imm_link="`_nuxt/assets/img/${area.name}.jpeg`" />
@@ -38,6 +53,34 @@ import CardArea from '~/components/CardArea.vue';
 </script>
 
 <style>
+
+
+    .cont-ar1{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 400px;
+    }
+
+    .aree{
+        font-size: 60px;
+        text-align: right;
+        margin-right:3%;
+        color:#03bfcb;
+    }
+
+    #a1{
+        width:800px;
+        height:800px;
+    }
+    
+    .sottot{
+        color:#03bfcb;
+        font-size: 20px;
+        font-style:italic;
+        margin:3%;
+    }
+
     #card-container
     {
         display: flex;

@@ -57,6 +57,7 @@
 
     .title {
     margin: 10px 0;
+    font-size:30px;
 }
 
 .subtitle {

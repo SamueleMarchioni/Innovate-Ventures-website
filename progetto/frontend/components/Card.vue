@@ -35,7 +35,7 @@
         justify-content: center;
         padding: 2px;
         width: 100px;
-        height: 150px;
+        height: 100px;
     }
 
      
@@ -50,6 +50,7 @@
     max-width: 100%;
     text-align: center;
     }
+    
     .card .img {
      border: 1px solid #03bfcb;
     border-radius: 50%;
@@ -64,6 +65,7 @@
     .title {
     margin: 10px 0;
     color: white;
+    font-size: 3em;
     }
 
     .subtitle {
