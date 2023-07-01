@@ -8,12 +8,12 @@
     - link: link to the page description
 -->
 <template>
-    <div class="card">
+    <div class="card-area">
         <div class="image-container">
             <img class="img" :src="imm_link" alt="problemi"/>
         </div>
         <span class="title">{{ title }}</span>
-        <NuxtLink :to = "link" class="linkstyle" >see more information</NuxtLink>
+        <NuxtLink :to = "link" class="linkstyle2" >see more information</NuxtLink>
     </div>
     
 </template>
@@ -24,6 +24,7 @@
 </script>
 
 <style>
+    
     .image-container
     {
         display: flex;
@@ -42,9 +43,12 @@
         width: auto;
         margin: auto;
         aspect-ratio: 1/1;
+        border: 1px solid #03bfcb;
+        border-radius: 50%;
+        padding: 7px;
     }
 
-    .card
+    .card-area
     {
         display: flex;
         flex-flow: column;
@@ -53,20 +57,25 @@
         width: fit-content;
         height: fit-content;
         align-items:center;
+        background-color: #231e39;
+        border-radius: 5px;
+        box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+        color: #b3b8cd;
+        padding-top: 30px;
+        position: static;
+        max-width: 100%;
+    
     }
 
     .title {
-    margin: 10px 0;
-    font-size:30px;
-}
+        margin: 10px 0;
+        font-size:30px;
+    }
 
-.subtitle {
-    margin: 5px 0;
-    text-transform: uppercase;
-}
-
- .linkstyle{
+    .linkstyle2{
         color: #03bfcb;
-}
+        font-size: larger;
+        text-decoration: none;
+    }
 
 </style>

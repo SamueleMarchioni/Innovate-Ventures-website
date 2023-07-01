@@ -10,27 +10,43 @@ import SmallCardArea from '~/components/smallCardArea.vue';
 -->
 <template>
     <main>
-        <div class = "info-group">
-            <img  v-bind:src="getSrc(project.name)" />
+        <div class = "info-group-project">
+            <div> 
+                <img id="proj-imm" v-bind:src="getSrc(project.name)" />
+            </div>
+            
             <div id = "data-container">
-                <p class = "data">Name: <span>{{ project.name }}</span></p>
-                <p class = "data">Area: <span>{{ project.city }}</span></p>
+                <p class = "data-project"><b>Name:</b> <span>{{ project.name }}</span></p>
+                <p class = "data-project"><b>Area:</b> <span>{{ project.city }}</span></p>
             </div>
         </div>
 
-        <p id = "description1" v-html = project.description></p>
-
-        <h1 id="proj">area of concern:</h1>
+        <p id = "description-project" v-html = project.description></p>
         
-        <div id = "person-card-container">
-           <SmallCardArea :title = "project.area.name" :link = "'/areas/' + project.area.id" />
-        </div>
+        <div class="small-cards-pair">
+             
+            <div class="carta-1">
+                
+                <h1 id="proj">Area:</h1>
+                
+                <div id = "project-card-container">
+                    <SmallCardArea :title = "project.area.name" :link = "'/areas/' + project.area.id" />
+                </div>
 
-        <h1 id="proj">supervisor:</h1>
-        
-        <div id = "person-card-container">
-          <SmallCard :title = "project.person.name" :subtitle = "project.person.breed" :link = "'/people/' + project.person.id" />
+             </div>   
+            
+             <div class="carta-2">
+                
+                <h1 id="proj">Supervisor:</h1>
+                
+                <div id = "project-card-container">
+                    <SmallCard :title = "project.person.name" :subtitle = "project.person.breed" :link = "'/people/' + project.person.id" />
+                </div>
+             
+            </div>
+
         </div>
+        
         
     </main>
 </template>
@@ -51,56 +67,64 @@ import SmallCardArea from '~/components/smallCardArea.vue';
 </script>
 
 <style>
-    #person-card-container {
+
+    .info-group-project{
+        display: grid; 
+        align-items: top;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 100px;
+        margin-top:2%;
+    }
+
+    .data-project{
+        font-size: 33px;
+        text-align: left;
+        margin-left:3%;
+        color:#03bfcb;
+    }
+
+    #proj-imm{
+        max-width: 400px;
+        max-height: 400px;
+        aspect-ratio: 1/1;
+    }
+
+    .small-cards-pair{
+        display: grid; 
+        align-items: top;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 300px;
+    }
+
+    .carta-1{
+        color:  rgb(235, 134, 98);
+        font-size: 15pt;
+        text-align: left;
+        
+    }
+
+    .carta-2{
+        color:  rgb(235, 134, 98);
+        font-size: 15pt;
+    }
+
+
+    #project-card-container {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         gap: 10px
     }
 
-    img {
-    width: 300px;
-    height: 300px;
-    margin: 1%;
-    }
 
-    main {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
 
-    .info-group {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-    }
-
-    .data {
-        font-weight: bolder;
-        font-size: 20pt;
-        color:rgb(27, 103, 202);
-
-    }
-
-    .data span {
-        font-weight: 100;
-        font-size: 20pt;
-        color:  rgb(27, 103, 202);
-        
-    }
-
-    #description1 {
+    #description-project {
         padding: 0 20px 0 20px;
         font-size: 18pt;
-        color: rgb(14, 144, 161);
+        color:#03bfcb ;
         text-align: center;
         margin-left:20%;
         margin-right:20%;
-     
+        font-style: italic;
     }
 </style>

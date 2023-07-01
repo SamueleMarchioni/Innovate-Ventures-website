@@ -48,7 +48,7 @@ export default async (models) => {
         },
         {
             name: "Mark Johnson",
-            breed: "Chief Marketing Officer,",
+            breed: "Chief Marketing Officer",
             age: 38,
             description: "Mark Johnson is a marketing and branding specialist known for his creative approach and deep understanding of consumer behavior. With a keen eye for market trends and a passion for building strong brands, he leads the company's marketing efforts. Mark's ability to craft compelling brand narratives, design effective marketing campaigns, and engage target customers ensures the venture's products and services resonate with the intended audience, driving customer acquisition and loyalty.",
             image:"cage.jpeg",

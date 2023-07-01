@@ -5,7 +5,7 @@
         </div>
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>
-        <NuxtLink :to = "link" class="linkstyle"> see more information</NuxtLink>
+        <NuxtLink :to = "link" class="linkstyle11"> see more information</NuxtLink>
     </div>
 </template>
 
@@ -25,15 +25,20 @@
 
      
     .card{
-    background-color: #231e39;
-    border-radius: 5px;
-    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-    color: #b3b8cd;
-    padding-top: 30px;
-    position: static;
-    width: 350px;
-    max-width: 100%;
-    text-align: center;
+        display: flex;
+        flex-flow: column;
+        padding: 10px;
+        border: #231e39;
+        width: fit-content;
+        height: fit-content;
+        align-items:center;
+        background-color: #231e39;
+        border-radius: 5px;
+        box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+        color: #b3b8cd;
+        padding-top: 30px;
+        position: static;
+        max-width: 100%;
     }
     .card .img {
      border: 1px solid #03bfcb;
@@ -68,8 +73,10 @@ button.primary {
     padding: 10px 25px;
     margin:10%;
 }
-.linkstyle{
+.linkstyle11{
         color: #03bfcb;
+        font-size: larger;
+        text-decoration: none;
 }
 
 </style>

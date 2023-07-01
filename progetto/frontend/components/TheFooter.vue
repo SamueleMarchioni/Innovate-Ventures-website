@@ -4,28 +4,76 @@
 
 <template>
     <footer>
-        <p> 2023 avengers VC firm</p>
-        <p> all rights reserved</p>
-        </footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img id="foto" src="~/assets/img/pngegg.png" alt="Innovate Ventures">
+                <h3>Innovate Ventures</h3>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>123 Innovation Street, Cityville</p>
+                <p>+1 123-456-7890</p>
+                <p>info@innovateventures.com</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy;<b>2023 Innovate Ventures. All rights reserved.</b>  
+                        <h4>Innovate Ventures</h4>  
+                        </p>
+        </div>
+    </footer>
+
 </template>
 
 <style>
     footer
     {
         background-color: #03bfcb;
-        flex-shrink: 0;
-        text-align: center;
-        margin-top: 1%;
+         margin-top: 1%;
         border-bottom: 5px solid #231e39;
         padding: 5px;
         bottom: 0;
         min-height: 1vh;
+        
+        
+    }
+
+    #foto{
+        width:200px;
+        height:200px;
+        margin-top:7%;
     }
     
-    p
+    .footer-container{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 750px;
+        margin-left: 20%;
+        margin-right: 5%;
+        border-bottom:2px solid #231e39;
+        width:60%;
+    }
+
+    .footer-bottom{
+        text-align: center;
+    }
+
+    .footer-contact
     {
-        color: white;
+        color: black;
         gap: 10px;
         font-size: 14pt
     }
 </style>
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

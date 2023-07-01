@@ -23,10 +23,10 @@
          <div class="health"><h1> About Healtcare</h1>
             <TextImage description = "With a deep understanding of the unique challenges and opportunities in the healthcare sector, our experienced team of investment professionals brings together a wealth of expertise, industry knowledge, and a robust network of strategic partners. We strive to identify and partner with exceptional entrepreneurs who are developing groundbreaking technologies, transformative therapies, digital health solutions, and disruptive business models." :isReverse=true image="_nuxt/assets/img/Health.jpeg" /> </div>
         <div class="economy"><h1> About Economy</h1>
-            <TextImage description="At [Venture Capital Firm Name], we believe that innovation is the key driver of economic growth. We actively seek out companies with disruptive business models, groundbreaking technologies, and novel approaches that have the potential to transform industries and create sustainable value. By investing in these visionary enterprises, we play a vital role in fueling economic expansion, driving job creation, and fostering entrepreneurial ecosystems."  image="_nuxt/assets/img/Economy.jpeg"></TextImage>
+            <TextImage description="At Innovate Ventures, we believe that innovation is the key driver of economic growth. We actively seek out companies with disruptive business models, groundbreaking technologies, and novel approaches that have the potential to transform industries and create sustainable value. By investing in these visionary enterprises, we play a vital role in fueling economic expansion, driving job creation, and fostering entrepreneurial ecosystems."  image="_nuxt/assets/img/logoecon.png"></TextImage>
         </div>
         <div class="tourism"><h1> About Tourism</h1>
-            <TextImage description="Our investment philosophy is centered around supporting companies across various segments of the tourism industry, including travel technology, accommodations, experiences, destination marketing, and sustainable tourism initiatives. By partnering with innovative businesses in these areas, we aim to drive positive change, boost economic growth, and contribute to the overall development of the tourism ecosystem." :isReverse=true image="_nuxt/assets/img/Tourism.jpeg"></TextImage>
+            <TextImage description="Our investment philosophy is centered around supporting companies across various segments of the tourism industry, including travel technology, accommodations, experiences, destination marketing, and sustainable tourism initiatives. By partnering with innovative businesses in these areas, we aim to drive positive change, boost economic growth, and contribute to the overall development of the tourism ecosystem." :isReverse=true image="_nuxt/assets/img/logotour.png"></TextImage>
         </div>
     </main>
 </template>
@@ -42,6 +42,7 @@
        
         font-size: 50px;
         background-color: rgb(96, 240, 245);
+        color:rgb(27, 103, 202);
        
     }
 

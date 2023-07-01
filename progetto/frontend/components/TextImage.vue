@@ -43,8 +43,8 @@
 
 <style>
     #tro {
-        width: 40%;
-        height: auto;
+        width: 500px;
+        height: 500px;
         margin:1%;
     }
     
@@ -72,8 +72,8 @@
 
     @media screen and (max-width: 1200px) {
         #main-img {
-            width: 50%;
-            height: auto;
+            width: 500px;
+            height: 500px;
         }
 
         .info-group, .reverse-info-group{

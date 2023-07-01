@@ -7,11 +7,23 @@
         <!--
             Form used to filter the list by age.
         -->
-        
-        <h1>Our team</h1>
-        <h2> At [Venture Capital Firm Name], our success is driven by the collective brilliance and diverse expertise of our exceptional team. Each member brings a unique set of skills, experiences, and perspectives, contributing to a dynamic and forward-thinking environment that fuels our ability to identify and support groundbreaking startups.
+        <div class="cont-peo1"> 
+            <div class="peop1">
+                <h1>Our team</h1>
+                <h3 style="margin-top:-15px;">At Innovate Ventures, our success is driven by the collective brilliance and diverse expertise of our exceptional team</h3>
+            </div>
 
-Our team is led by visionary leaders who have a proven track record of success in entrepreneurship, investment, and strategic guidance. With their wealth of experience, they provide invaluable insights and strategic direction, ensuring that our investment decisions align with our long-term objectives and deliver exceptional returns.</h2>
+            <div class="image2">
+                <img id="pe1" src = "~/assets/img/team.png" />
+            </div>
+        </div>
+        <div class="sottot-peo">
+            <h2>
+                Each member brings a unique set of skills, experiences, and perspectives, contributing to a dynamic and forward-thinking environment that fuels our ability to identify and support groundbreaking startups.
+                Our team is led by visionary leaders who have a proven track record of success in entrepreneurship, investment, and strategic guidance. With their wealth of experience, they provide invaluable insights and strategic direction, ensuring that our investment decisions align with our long-term objectives and deliver exceptional returns.
+            </h2>
+        </div>
+        
         <div id="card-container">
             <Card v-for = "person of people" :title = "person.name" :subtitle = "person.breed" :link = "'/people/' + person.id" :img_link="`_nuxt/assets/img/people/${person.name}.jpeg`" />
         </div>
@@ -37,6 +49,34 @@ Our team is led by visionary leaders who have a proven track record of success i
 </script>
 
 <style>
+
+
+    .cont-peo1{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 400px;
+    }
+
+    .peop1{
+        font-size: 60px;
+        text-align: left;
+        margin-left:3%;
+        color:#03bfcb;
+    }
+
+    #pe1{
+        width:800px;
+        height:800px;
+    }
+
+    .sottot-peo{
+        color:#03bfcb;
+        font-size: 20px;
+        font-style:italic;
+        margin:3%;
+    }
+
     #card-container
     {
         display: flex;

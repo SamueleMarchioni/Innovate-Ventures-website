@@ -1,7 +1,10 @@
 <template>
     <main>
-       
-        <h1> have a look on our top ranked projects</h1>
+       <div class="rank">
+            <h1> Top ranked projects</h1>
+            <h6> At Innovate Ventures, we are committed to identifying and supporting innovative projects that have the potential to make a significant impact in the economy, health, and tourism sectors. Our team of experts has meticulously evaluated numerous ventures and handpicked a selection of top-ranked projects that exemplify groundbreaking ideas and promising growth potential.</h6>
+       </div>
+        
 
         <div id="card-container">
             <CardLoc v-for = "project of filtered" :title = "project.name" :subtitle = "project.city" :link = "'/projects/' + project.id" :img_link="`_nuxt/assets/img/projects/${project.name}.jpeg`" />
@@ -50,7 +53,14 @@
         align-content: flex-start;
         gap: 10px;
     }
-
+    
+    .rank{
+        font-size: 60px;
+        text-align: left;
+        margin-left:3%;
+        color:#03bfcb;
+    }
+    
     .form-container {
         width: 90%;
         border-radius: 10px;

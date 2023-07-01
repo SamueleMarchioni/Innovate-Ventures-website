@@ -12,7 +12,7 @@
     <div class="cardina">
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>
-        <NuxtLink :to = "link" ><button>Go to the page</button></NuxtLink>
+        <NuxtLink :to = "link" ><button class="small-butt">Go to the page</button></NuxtLink>
     </div>
 </template>
 
@@ -27,15 +27,6 @@
 </script>
 
 <style>
-    .image-container
-    {
-        display: flex;
-        justify-content: center;
-        padding: 2px;
-        width: 250px;
-        height: 250px;
-    }
-
     .cardina
     {
         display: flex;
@@ -57,6 +48,18 @@
         font-weight: bold;
     }
 
+    .small-butt{
+        background-color: #03bfcb;
+        border: 1px solid #03bfcb;
+        border-radius: 3px;
+        color: white;
+        padding: 10px 25px;
+        width:fit-content;
+    }
+
+    .small-butt:hover{
+        color:#231e39;
+    }
     
 
 </style>

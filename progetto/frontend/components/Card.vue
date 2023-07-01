@@ -15,7 +15,7 @@
         </div>
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>
-        <NuxtLink :to = "link" class="linkstyle"> see more information</NuxtLink>
+        <NuxtLink :to = "link" class="linkstyle6"> see more information</NuxtLink>
         <div class="buttons">
         <button class="primary">
             Message
@@ -40,15 +40,20 @@
 
      
     .card{
-    background-color: #231e39;
-    border-radius: 5px;
-    box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
-    color: #b3b8cd;
-    padding-top: 30px;
-    position: relative;
-    width: 350px;
-    max-width: 100%;
-    text-align: center;
+        display: flex;
+        flex-flow: column;
+        padding: 10px;
+        border: #231e39;
+        width: fit-content;
+        height: fit-content;
+        align-items:center;
+        background-color: #231e39;
+        border-radius: 5px;
+        box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+        color: #b3b8cd;
+        padding-top: 30px;
+        position: static;
+        max-width: 100%;
     }
     
     .card .img {
@@ -75,22 +80,25 @@
     }
 
 
-button.primary {
+    button.primary {
     background-color: #03bfcb;
     border: 1px solid #03bfcb;
     border-radius: 3px;
     color: #231e39;
-    font-weight: 500;
+    
     padding: 10px 25px;
     margin:10%;
-}
-.linkstyle{
+    width: 100px;
+    }
+
+    .linkstyle6{
         color: #03bfcb;
         text-decoration :none ;
-}
+        font-size: larger;
+    }
 
-.linkstyle:hover{
-    color:white;
-}
+    .linkstyle:hover{
+        color:white;
+    }
 
 </style>

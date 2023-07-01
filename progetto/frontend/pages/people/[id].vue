@@ -4,12 +4,16 @@
 -->
 <template>
     <main>
-        <div class = "info-group">
-            <img v-bind:src="getSrc(person.name)" />
-            <div id = "data-container">
-                <p class = "data">Name: <span>{{ person.name }}</span></p>
-                <p class = "data">Role: <span>{{ person.breed }}</span></p>
-                <p class = "data">Age: <span>{{ person.age }}</span></p>
+        <div class = "info-group-person">
+            
+            <div>
+                <img id="person-imm" v-bind:src="getSrc(person.name)" />
+            </div>
+            
+            <div id = "data-container-person">
+                <p class = "data-person"><b>Name:</b> <span>{{ person.name }}</span></p>
+                <p class = "data-person"><b>Role:</b> <span>{{ person.breed }}</span></p>
+                <p class = "data-person"><b>Age:</b> <span>{{ person.age }}</span></p>
             </div>
         </div>
         
@@ -19,10 +23,10 @@
             This function is a composable that is available anywhere, without requiring to be imported.
         -->
 
-        <p id = "description" v-html = "newLineOnFullStop(person.description)"></p>
+        <p id = "description-person" v-html = "newLineOnFullStop(person.description)"></p>
 
       
-         <h1 id="proj">projects supervised:</h1>
+         <h1 id="proj-person">Projects supervised:</h1>
          
          <div id = "person-card-container">
             <SmallCard v-for = "project of person.projects" :link = "'/projects/' + project.id" :title = "project.name" :subtitle = "project.city"/>
@@ -46,51 +50,40 @@
 </script>
 
 <style>
-    img {
-    width: 300px;
-    height: 400px;
-    margin: 1%;
+    
+    .info-group-person{
+        display: grid; 
+        align-items: top;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 100px;
+        margin-top:2%;
     }
 
-    main {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+    .data-person{
+        font-size: 33px;
+        text-align: left;
+        margin-left:3%;
+        color:#03bfcb;
     }
 
-    .info-group {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
+    #person-imm{
+        max-width: 400px;
+        max-height: 400px;
+        aspect-ratio: 1/1;
     }
-
-    .data {
-        font-weight: bolder;
-        font-size: 20pt;
-        color:rgb(27, 103, 202);
-
-    }
-
-    .data span {
-        font-weight: 100;
-        font-size: 20pt;
-        color:  rgb(27, 103, 202);
-        
-    }
-
-    #description {
+    
+    #description-person {
         padding: 0 20px 0 20px;
         font-size: 18pt;
-        color: rgb(14, 144, 161);
+        color: #03bfcb;
         text-align: center;
+        font-style: italic;
+        align-items: top;
+        
     }
-    #proj{
+    #proj-person{
         color:  rgb(235, 134, 98);
-        font-size: 20pt;
+        font-size: 25pt;
     }
 
     

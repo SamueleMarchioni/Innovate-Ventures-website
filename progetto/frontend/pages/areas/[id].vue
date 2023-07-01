@@ -4,13 +4,19 @@
 -->
 <template>
     <main>
-        <div class = "info-group">
-            <img v-bind:src="getSrc(area.name)" />
-            <div id = "data-container">
-                <p class = "data"> <span>{{ area.name }}</span></p>
+        <div class = "info-group-area">
+            
+            <div>
+                <img id="area-imm" v-bind:src="getSrc(area.name)" />
             </div>
+                
+            <div id = "data-container-area">
+                <p class = "data-area"> <span>{{ area.name }}</span></p>
+            </div>
+        
         </div>
-        <p id = "description" v-html = "newLineOnFullStop(area.description)"></p>
+        
+        <p id = "description-area" v-html = "newLineOnFullStop(area.description)"></p>
 
         <!--
             v-html allows us to change the structure of a HTML element.
@@ -39,10 +45,25 @@
 </script>
 
 <style>
-    img {
-    width: 300px;
-    height: 300px;
-    margin: 1%;
+    
+    .info-group-area{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 100px;
+    }
+
+    .data-area{
+        font-size: 40px;
+        text-align: right;
+        margin-right:3%;
+        color:#03bfcb;
+    }
+
+    #area-imm{
+        max-width: 300px;
+        max-height: 300px;
+        aspect-ratio: 1/1;
     }
    
 
@@ -54,34 +75,20 @@
     }
 
     
-    .info-group {
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        gap: 40px;
-    }
-
-    .data {
-        font-weight: bolder;
-        font-size: 20pt;
-        color:rgb(27, 103, 202);
-
-    }
-
-    .data span {
-        font-weight: 100;
-        font-size: 20pt;
-        color:  rgb(27, 103, 202);
-        
-    }
-
-    #description {
+    #description-area {
         padding: 0 20px 0 20px;
         font-size: 18pt;
         color: rgb(14, 144, 161);
         justify-content: center;
-     
+        font-style: italic;
     }
+
+    
+    #person-card-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
 </style>

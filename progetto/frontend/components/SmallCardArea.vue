@@ -1,7 +1,7 @@
 <template>
     <div class="cardella">
         <span class="title">{{ title }}</span>
-        <NuxtLink :to = "link" ><button>Go to the page</button></NuxtLink>
+        <NuxtLink :to = "link" > <button class="small-butt"> Go to the page</button></NuxtLink>
     </div>
 </template>
 
@@ -42,6 +42,19 @@
     {
         font-size: 1.5em;
         font-weight: bold;
+    }
+
+    .small-butt{
+        background-color: #03bfcb;
+        border: 1px solid #03bfcb;
+        border-radius: 3px;
+        color: white;
+        padding: 10px 25px;
+        width:fit-content;
+    }
+
+    .small-butt:hover{
+        color:#231e39;
     }
 
   

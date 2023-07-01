@@ -2,73 +2,143 @@
     Contact Page
 -->
 <template>
-    <main>
         <main>
-            <p>
-                This are our contacts:
-                <ul>
-                    <li>E-mail: mail@shelter.it</li>
-                    <li>Tel: 053684864351</li>
-                </ul>
-            </p>
-            <form>
-                <div>
-                    <label for = "name">Name & Surname</label>
-                    <input type = "text" id = "name" placeholder = "Name & Surname" required>
+             <form>
+                <div class="form-cont">
+                    <div class="text-form">
+                        <h1>Contact us</h1>
+                        <h4>For further information</h4>
+                    </div>
+                    
+                    <div class="act-form">
+                        <div>
+                            <label for = "name">Name & Surname</label>
+                            <input type = "text" id = "name" placeholder = "Name & Surname" required>
+                        </div>
+                        <div>
+                            <label for = "mail">E-mail</label>
+                            <input type = "email" id = "mail" placeholder = "E-mail" required> 
+                        </div>
+                        <div id = "message-div">
+                            <label for = "message">Message</label>
+                            <textarea id = "message" placeholder = "Write your message here"></textarea>  
+                        </div>
+                        <button class="contbutt">Send Message</button>
+                    </div>
                 </div>
-                <div>
-                    <label for = "mail">E-mail</label>
-                    <input type = "email" id = "mail" placeholder = "E-mail" required>
+              </form>
+
+              <div class="cont-cont"> 
+                <div class="context">
+                    <h1>Headquarter</h1>
+                    <h4>123 Innovation Street, Cityville </h4>
+                    <h4>+1 123-456-7890</h4> 
+                    <h4>info@innovateventures.com</h4>
                 </div>
-                <div id = "message-div">
-                    <label for = "message">Message</label>
-                    <textarea id = "message" placeholder = "Write your message here"></textarea>  
+
+                <div class="image2">
+                    <img id="cont1" src = "~/assets/img/headquarter.png" />
                 </div>
-                <button>Send Message</button>
-            </form>
+            </div>
+
+
+
+
         </main>
-    </main>
+
+        
 </template>
 
 <style>
-    main {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    .cont-cont{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 200px;
     }
 
+    .context{
+        font-size: 40px;
+        text-align: left;
+        margin-left:3%;
+        color:#03bfcb;
+    }
+
+    #cont1{
+        width:800px;
+        height:800px;
+    }
+    .form-cont{
+        display: grid;
+        align-items: center; 
+        grid-template-columns: 1fr 1fr;
+        column-gap: 150px;
+        border-top: 50px;
+    }
+
+    .text-form{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        color:#231e39;
+        line-height:5px;
+    }
+
+
     form {
-        width: 600px;
+        width: 95%;
         display: flex;
         flex-direction: column;
         padding: 15px;
-        border: 2px grey dashed;
         border-radius: 5px;
         row-gap: 20px;
-        background-color: #03c8d6;
+        background-color: #7ce4eb;
+        font-size: 25px;
+        
     }
 
-    form div {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+    .contbutt{
+        border-radius: 5px;
+        padding: 10px;
+        width:750px;
+        height: fit-content;
+        max-height: 400px;
+        background-color: #231e39;
+        font-size: 20px;
+        color:white;
+        align-items: center;
     }
 
     textarea {
-        width: 99%;
+        width: 85%;
         min-height: 5.1em;
         resize: vertical;
+        height: 150px;
     }
 
     input {
-        width: 60%;
+        width: 85%;
     }
 
     label {
-        font-size: 13pt;
+        font-size: 20pt;
         font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+        color:#231e39;
+    }
+    
+    .act-form{
+        align-items:right;
+    }
+    #mail{
+        width: 85%;
+        height: 50px; 
+    }
+
+    #name{
+        width: 85%;
+        height: 50px;
     }
 
     #message-div {

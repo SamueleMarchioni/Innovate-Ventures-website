@@ -40,8 +40,8 @@
         
        <div class="carte">
         
-        <div id = "form-container">
-                <label for = "projects filter"><h1>By area of interest</h1></label>
+        <div id = "form-container-proj">
+                <label class="proj-filt" for = "projects-filter"><h1>By area of interest</h1></label>
                 <select v-model="area">
                 <option value="0"> All projects</option>
                 <option value="1"> Economy</option>
@@ -88,6 +88,10 @@
 </script>
 
 <style>
+
+    .proj-filt{
+        color:white;
+    }
     
     .cont-pr1{
         display: grid;
@@ -175,7 +179,7 @@
         color: #b014c5;
     }
 
-    #form-container {
+    #form-container-proj {
         width: 90%;
         border-radius: 10px;
         border: 2px solid rgb(27, 103, 202);
@@ -183,7 +187,6 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-content: flex-start;
-        color: white;
         gap: 20px;
         background-color:#231e39;
         padding: 20px;
@@ -191,7 +194,7 @@
         margin:2%;
         margin-left: 5%;
     }
- 
+    
     .carte{
         
         margin-bottom:-18px;
