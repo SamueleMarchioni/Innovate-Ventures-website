@@ -31,6 +31,22 @@
     </main>
 </template>
 
+<script setup>
+  useHead({
+    title: 'About us - Innovate Ventures',
+    meta: [
+      {
+        name: 'description',
+        content: 'About us page, brief information about who we are and in what we invest' 
+      },
+      {
+        name: 'keywords',
+        content : 'about, economy, tourism, healthcare'
+      }
+    ]
+  });
+  </script>
+
 <style>
 
     .firm{
@@ -66,8 +82,6 @@
     
        
     }
-
-
 
     main {
         width: 100%;

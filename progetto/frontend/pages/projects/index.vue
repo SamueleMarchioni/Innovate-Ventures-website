@@ -85,6 +85,20 @@
         // Returning the filtered list
         return arr
     })
+    
+    useHead({
+    title: 'All projects - Innovate Ventures',
+    meta: [
+      {
+        name: 'description',
+        content: 'All projects page, see all the projects available in our firm or filter them by area' 
+      },
+      {
+        name: 'keywords',
+        content : 'projects, economy, tourism, healthcare, area'
+      }
+    ]
+  });
 </script>
 
 <style>

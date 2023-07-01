@@ -47,6 +47,20 @@
       return modules[path].default;
     };
 
+    useHead({
+    title: "Person - Innovate Ventures " ,
+    meta: [
+      {
+        name: 'description',
+        content: 'single person page, all information about the current job/position of a specific pearson' 
+      },
+      {
+        name: 'keywords',
+        content : 'person, projects, supervisor, position, job'
+      }
+    ]
+  });
+
 </script>
 
 <style>

@@ -12,7 +12,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
     <main>
         <div class = "info-group-project">
             <div> 
-                <img id="proj-imm" v-bind:src="getSrc(project.name)" />
+                <img id="proj-imm" v-bind:src="getSrc(project.name)" alt=""/>
             </div>
             
             <div id = "data-container">
@@ -63,6 +63,20 @@ import SmallCardArea from '~/components/smallCardArea.vue';
       const modules = import.meta.globEager("/assets/img/projects/*.jpeg");
       return modules[path].default;
     };
+
+    useHead({
+    title: "Project - Innovate Ventures " ,
+    meta: [
+      {
+        name: 'description',
+        content: 'single project page, information about a specific project' 
+      },
+      {
+        name: 'keywords',
+        content : 'project, supervisor, area'
+      }
+    ]
+  });
 
 </script>
 

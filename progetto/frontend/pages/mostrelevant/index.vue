@@ -30,6 +30,20 @@
         // Returning the filtered list
         return arr
     })
+
+    useHead({
+    title: 'Most relevant projects - Innovate Ventures',
+    meta: [
+      {
+        name: 'description',
+        content: 'most relevant projects, our top 5 ranked projects' 
+      },
+      {
+        name: 'keywords',
+        content : 'most, relevant, projects, top'
+      }
+    ]
+  });
 </script>
 
   

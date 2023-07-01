@@ -34,23 +34,25 @@ import CardArea from '~/components/CardArea.vue';
     </main>
 </template>
 
-<script>
-    /*
-        The defineNuxtComponent gets us access to the asyncData property.
-        This is the first function that is called by nuxt when the page is called.
-        We can use this to pre-load the data to make it available to the user.
-    */
-    export default defineNuxtComponent({
-    async asyncData() {
-        // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
-        const areas = await $fetch(useRuntimeConfig().public.serverURL + "/areas");
-        
-        return {
-            areas
-        }
-    }
-})
-</script>
+<script setup>
+
+  const { data: areas } = await useFetch(useRuntimeConfig().public.serverURL + '/areas')
+
+
+  useHead({
+    title: 'All areas - Innovate Ventures',
+    meta: [
+      {
+        name: 'description',
+        content: 'All areas page, the 3 main areas in which we invest' 
+      },
+      {
+        name: 'keywords',
+        content : 'areas, economy, tourism, healthcare'
+      }
+    ]
+  });
+  </script>
 
 <style>
 

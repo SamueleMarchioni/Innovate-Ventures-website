@@ -42,6 +42,20 @@
       return modules[path].default;
     };
 
+    useHead({
+    title: "Area - Innovate Ventures " ,
+    meta: [
+      {
+        name: 'description',
+        content: 'single area page, information about that spaific area, projects related' 
+      },
+      {
+        name: 'keywords',
+        content : 'area, projects'
+      }
+    ]
+  });
+
 </script>
 
 <style>

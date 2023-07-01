@@ -10,7 +10,7 @@
         <div class="cont-peo1"> 
             <div class="peop1">
                 <h1>Our team</h1>
-                <h3 style="margin-top:-15px;">At Innovate Ventures, our success is driven by the collective brilliance and diverse expertise of our exceptional team</h3>
+                <h3>At Innovate Ventures, our success is driven by the collective brilliance and diverse expertise of our exceptional team</h3>
             </div>
 
             <div class="image2">
@@ -30,26 +30,27 @@
     </main>
 </template>
 
-<script>
-    /*
-        The defineNuxtComponent gets us access to the asyncData property.
-        This is the first function that is called by nuxt when the page is called.
-        We can use this to pre-load the data to make it available to the user.
-    */
-    export default defineNuxtComponent({
-    async asyncData() {
-        // useRuntimeConfig provide us with environment variables set up in the nuxtconfig file
-        const people = await $fetch(useRuntimeConfig().public.serverURL + "/people");
-        
-        return {
-            people
+<script setup>
+
+    const { data: people } = await useFetch(useRuntimeConfig().public.serverURL + '/people')
+
+
+    useHead({
+        title: 'All people - Innovate Ventures',
+        meta: [
+        {
+            name: 'description',
+            content: 'All people page, the team that currently work in our firm' 
+        },
+        {
+            name: 'keywords',
+            content : 'person, team, people'
         }
-    }
-})
+        ]
+    });
 </script>
 
 <style>
-
 
     .cont-peo1{
         display: grid;

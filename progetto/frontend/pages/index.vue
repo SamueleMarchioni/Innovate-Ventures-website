@@ -47,16 +47,25 @@
             </div>
         </div>
 
-        
-        
-        
-
-
     </main>
 </template>
 
 
-
+<script setup>
+  useHead({
+    title: 'Innovate Ventures',
+    meta: [
+      {
+        name: 'description',
+        content: 'see every information you want about Venture Innovative starting from our Home page' 
+      },
+      {
+        name: 'keywords',
+        content : 'Venture, Innovative, VC'
+      }
+    ]
+  });
+</script>
 
 
 <style>

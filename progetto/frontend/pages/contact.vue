@@ -45,9 +45,23 @@
 
 
         </main>
-
-        
 </template>
+
+<script setup>
+  useHead({
+    title: 'Contact us - Innovate Ventures',
+    meta: [
+      {
+        name: 'description',
+        content: 'Contac us page: our e-mail, adress, telephone number and a form to send us an e-mail directly from this page' 
+      },
+      {
+        name: 'keywords',
+        content : 'contact, name, surname, e-mail, telephone '
+      }
+    ]
+  });
+</script>
 
 <style>
     .cont-cont{
