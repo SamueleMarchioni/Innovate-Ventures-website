@@ -14,7 +14,7 @@
             </div>
 
             <div class="image2">
-                <img id="pe1" src = "~/assets/img/team.png" />
+                <img id="pe1" src = "~/assets/img/team.png" alt=""/>
             </div>
         </div>
         <div class="sottot-peo">

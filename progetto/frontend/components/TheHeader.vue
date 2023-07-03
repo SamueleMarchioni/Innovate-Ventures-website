@@ -3,7 +3,7 @@
 -->
 <template>
     <header>
-        <NuxtLink to = "/"> <img id="img" src='~/assets/img/pngegg.png' /> </NuxtLink>
+        <NuxtLink to = "/"> <img id="img" src='~/assets/img/pngegg.png' alt="Innovate Ventures" /> </NuxtLink>
         <nav>
             <NuxtLink to = "/people" class="links">PEOPLE</NuxtLink>
             <NuxtLink to = "/projects" class="links">PROJECTS</NuxtLink>

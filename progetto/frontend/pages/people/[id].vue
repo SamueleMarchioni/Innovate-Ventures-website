@@ -7,7 +7,7 @@
         <div class = "info-group-person">
             
             <div>
-                <img id="person-imm" v-bind:src="getSrc(person.name)" />
+                <img id="person-imm" v-bind:src="getSrc(person.name)" alt=""/>
             </div>
             
             <div id = "data-container-person">

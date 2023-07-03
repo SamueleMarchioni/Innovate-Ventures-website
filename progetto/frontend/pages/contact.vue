@@ -37,7 +37,7 @@
                 </div>
 
                 <div class="image2">
-                    <img id="cont1" src = "~/assets/img/headquarter.png" />
+                    <img id="cont1" src = "~/assets/img/headquarter.png" alt=""/>
                 </div>
             </div>
 

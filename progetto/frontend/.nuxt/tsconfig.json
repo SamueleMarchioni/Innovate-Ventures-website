@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "strict": true,
     "allowJs": true,
-    "baseUrl": "/Users/samuele.marchioni/Desktop/u/progetto/frontend",
+    "baseUrl": "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend",
     "noEmit": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
@@ -18,64 +18,64 @@
     ],
     "paths": {
       "~": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
       ],
       "~/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
       ],
       "@": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
       ],
       "@/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
       ],
       "~~": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
       ],
       "~~/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
       ],
       "@@": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
       ],
       "@@/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
       ],
       "assets": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/assets"
       ],
       "assets/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/assets/*"
       ],
       "public": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/public"
       ],
       "public/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/public/*"
       ],
       "#app": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/node_modules/nuxt/dist/app"
       ],
       "#app/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/node_modules/nuxt/dist/app/*"
       ],
       "vue-demi": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app/compat/vue-demi"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#vue-router": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/vue-router"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/.nuxt/vue-router"
       ],
       "#imports": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/imports"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/.nuxt/imports"
       ],
       "#build": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/.nuxt"
       ],
       "#build/*": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/*"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/.nuxt/*"
       ],
       "#components": [
-        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/components"
+        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/.nuxt/components"
       ]
     }
   },

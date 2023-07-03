@@ -10,7 +10,7 @@
 <template>
     <div class="card-area">
         <div class="image-container">
-            <img class="img" :src="imm_link" alt="problemi"/>
+            <img class="img" :src="imm_link" alt=""/>
         </div>
         <span class="title">{{ title }}</span>
         <NuxtLink :to = "link" class="linkstyle2" >see more information</NuxtLink>

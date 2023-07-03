@@ -11,13 +11,13 @@
             </div>
             
             <div class="image2">
-                <img id="uno" src = "~/assets/img/pngegg.png" />
+                <img id="uno" src = "~/assets/img/pngegg.png" alt="Innovate Ventures"/>
             </div>
         </div>
       
         <div class="secondo"> 
             <div class="image2">
-                <img id="sec" src = "~/assets/img/ideas.png" />
+                <img id="sec" src = "~/assets/img/ideas.png" alt=""/>
             </div>
             <div class="tit2">
                 <h1> We believe in supporting visionary founders who are passionate about disrupting industries and solving complex challenges  </h1>
@@ -29,13 +29,13 @@
                 <h1> Our experienced team brings a wealth of industry expertise and a vast network of connections to help our portfolio companies accelerate their growth and achieve their full potential  </h1>
             </div>
             <div class="image2">
-                <img id="ter" src = "~/assets/img/team.png" />
+                <img id="ter" src = "~/assets/img/team.png" alt=""/>
             </div>
         </div>
 
         <div class="quarto"> 
             <div class="image2">
-                <img id="qua" src = "~/assets/img/proj.png" />
+                <img id="qua" src = "~/assets/img/proj.png" alt=""/>
             </div>
             <div class="tit4">
                 <h1> Our investment focus spans across sectors such as technology, healthcare, consumer products, fintech, and clean energy, among others </h1>

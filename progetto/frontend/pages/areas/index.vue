@@ -8,7 +8,7 @@ import CardArea from '~/components/CardArea.vue';
     <main>
         <div class="cont-ar1"> 
             <div class="image2">
-                <img id="a1" src = "~/assets/img/invest.png" />
+                <img id="a1" src = "~/assets/img/invest.png"  alt=""/>
             </div>
             
             

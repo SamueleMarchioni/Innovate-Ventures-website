@@ -7,7 +7,7 @@
         <div class = "info-group-area">
             
             <div>
-                <img id="area-imm" v-bind:src="getSrc(area.name)" />
+                <img id="area-imm" v-bind:src="getSrc(area.name)" alt="" />
             </div>
                 
             <div id = "data-container-area">

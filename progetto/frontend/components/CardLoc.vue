@@ -1,7 +1,7 @@
 <template>
     <div class="card">
         <div class="image-container">
-            <img class="img" :src="img_link" alt="problemi"/>
+            <img class="img" :src="img_link" alt=""/>
         </div>
         <span class="title">{{ title }}</span>
         <span class="subtitle">{{ subtitle }}</span>

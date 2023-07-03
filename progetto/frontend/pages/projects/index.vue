@@ -13,12 +13,12 @@
             </div>
             
             <div class="image2">
-                <img id="p1" src = "~/assets/img/p1.png" />
+                <img id="p1" src = "~/assets/img/p1.png" alt=""/>
             </div>
         </div>
         <div class="cont-pr2">
             <div class="image2">
-                <img id="p2" src = "~/assets/img/p1.png" />
+                <img id="p2" src = "~/assets/img/p1.png" alt=""/>
             </div>
             <div class="sectors">
                 <h1>

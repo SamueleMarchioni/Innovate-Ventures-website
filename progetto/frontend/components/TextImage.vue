@@ -11,7 +11,7 @@
         There is also another way to achieve this by using the array notation. More here: https://vuejs.org/guide/essentials/class-and-style.html#class-and-style-bindings
     -->
     <div id='cont' :class = "{'info-group': !isReverse, 'reverse-info-group': isReverse}">
-        <img id="tro" :src = "image" />
+        <img id="tro" :src = "image" alt="" />
         <p class="desc">
            {{ description }}
         </p>
