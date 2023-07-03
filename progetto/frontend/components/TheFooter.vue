@@ -40,20 +40,19 @@
     }
 
     #foto{
-        width:200px;
-        height:200px;
-        margin-top:7%;
+        max-width:200px;
+        max-height:200px;
+        width: auto;
+        height:auto;
     }
     
     .footer-container{
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 750px;
-        margin-left: 20%;
+        column-gap: auto;
+        margin-left: 5;
         margin-right: 5%;
-        border-bottom:2px solid #231e39;
-        width:60%;
     }
 
     .footer-bottom{
@@ -64,7 +63,7 @@
     {
         color: black;
         gap: 10px;
-        font-size: 14pt
+        font-size: 14pt;
     }
 </style>
 
