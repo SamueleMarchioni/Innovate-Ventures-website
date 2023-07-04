@@ -122,17 +122,20 @@
     }
 
     #p1{
-        width:500px;
-        height:700px;
+        width:max-content;
+        height:max-content;
+        max-width:500px;
+        max-height:700px;
     }
 
     .cont-pr2{
-        margin-top: 200px;
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
         column-gap: auto;
-        background-color:#03bfcb
+        background-color:#03bfcb;
+        width:100%;
+        margin-top:10%;
     }
 
     .sectors{

@@ -86,7 +86,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
         display: grid; 
         align-items: top;
         grid-template-columns: 1fr 1fr;
-        column-gap: 100px;
+        column-gap: auto;
         margin-top:2%;
     }
 
@@ -107,7 +107,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
         display: grid; 
         align-items: top;
         grid-template-columns: 1fr 1fr;
-        column-gap: 300px;
+        column-gap: auto;
     }
 
     .carta-1{

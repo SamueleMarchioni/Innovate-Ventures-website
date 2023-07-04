@@ -178,7 +178,7 @@
         display: flex;
         flex-flow: column;
         padding: 10px;
-        width: fit-content;
+        width: 100%;
         height: fit-content;
         max-height: 400px;
         background-color: rgb(96, 240, 245);

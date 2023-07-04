@@ -56,7 +56,8 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
+        
     }
 
     .peop1{
@@ -67,8 +68,10 @@
     }
 
     #pe1{
-        width:800px;
-        height:800px;
+        width:max-content;
+        height:max-content;
+        max-width:800px;
+        max-height:800px;
     }
 
     .sottot-peo{

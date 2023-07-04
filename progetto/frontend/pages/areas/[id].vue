@@ -64,7 +64,7 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 100px;
+        column-gap: auto;
     }
 
     .data-area{
@@ -103,6 +103,8 @@
         flex-direction: row;
         flex-wrap: wrap;
         gap: 10px;
+        margin:2%;
+        
     }
 
 </style>
