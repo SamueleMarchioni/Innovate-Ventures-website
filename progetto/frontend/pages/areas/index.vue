@@ -101,12 +101,12 @@ import CardArea from '~/components/CardArea.vue';
     main
     {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-content: flex-start;
         gap: 10px;
         text-align: center;
-    
+        width:100%;
     }
 
 

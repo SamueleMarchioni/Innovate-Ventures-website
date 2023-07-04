@@ -68,7 +68,7 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 200px;
+        column-gap: auto;
     }
 
     .context{
@@ -79,14 +79,17 @@
     }
 
     #cont1{
-        width:800px;
-        height:800px;
+        width:max-content;
+        height:max-content;
+        max-width:700px;
+        max-height:700px;
     }
+    
     .form-cont{
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 150px;
+        column-gap: auto;
         border-top: 50px;
     }
 
@@ -114,7 +117,7 @@
     .contbutt{
         border-radius: 5px;
         padding: 10px;
-        width:750px;
+        width:100%;
         height: fit-content;
         max-height: 400px;
         background-color: #231e39;
