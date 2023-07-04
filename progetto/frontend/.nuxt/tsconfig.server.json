@@ -12,51 +12,51 @@
     "jsxFragmentFactory": "Fragment",
     "paths": {
       "#imports": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/.nuxt/types/nitro-imports"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/.nuxt/types/nitro-imports"
       ],
       "#paths": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/node_modules/nuxt/dist/core/runtime/nitro/paths"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend"
       ],
       "~/*": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/*"
       ],
       "@": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend"
       ],
       "@/*": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/*"
       ],
       "~~": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend"
       ],
       "~~/*": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/*"
       ],
       "@@": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend"
       ],
       "@@/*": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/*"
       ],
       "assets": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/assets"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/assets"
       ],
       "assets/*": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/assets/*"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/assets/*"
       ],
       "public": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/public"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/public"
       ],
       "public/*": [
-        "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/public/*"
+        "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/public/*"
       ]
     }
   },
   "include": [
-    "/Users/pippomonti99/Desktop/FINAL HYP/progetto/frontend/.nuxt/types/nitro-nuxt.d.ts",
+    "/Users/samuele.marchioni/Desktop/progetto/progetto/frontend/.nuxt/types/nitro-nuxt.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"

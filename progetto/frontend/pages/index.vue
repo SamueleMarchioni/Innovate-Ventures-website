@@ -81,14 +81,14 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
     }
     
     .secondo{
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
         background-color:rgb(96, 240, 245) ;
         
     }
@@ -97,7 +97,7 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
         background-color:rgb(27, 103, 202) ;
         
     }
@@ -106,30 +106,38 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
     }
     
     #uno{
-        width:800px;
-        height:800px;
+        width:max-content;
+        height:max-content;
+        max-width:800px;
+        max-height:800px;
     }
 
     #sec{
         margin:1%;
-        width:800px;
-        height:800px;
+        width:max-content;
+        height:max-content;
+        max-width:800px;
+        max-height:800px;
     }
 
     #ter{
         margin:1%;
-        width:1000px;
-        height:1000px; 
+        width:max-content;
+        height:max-content;
+        max-width:800px;
+        max-height:800px;
     }
 
     #qua{
         margin:1%;
-        width:700px;
-        height:700px; 
+        width:max-content;
+        height:max-content;
+        max-width:800px;
+        max-height:800px;
     }
 
     .tit {
@@ -155,7 +163,7 @@
     }
     .tit4 {
         font-size: 40px;
-        text-align: left;
+        text-align: right;
         margin:3%;
         align-items: center;
         color:white;
@@ -170,7 +178,7 @@
         display: flex;
         flex-flow: column;
         padding: 10px;
-        width: 750px;
+        width: fit-content;
         height: fit-content;
         max-height: 400px;
         background-color: rgb(96, 240, 245);

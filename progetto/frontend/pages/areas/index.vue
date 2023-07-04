@@ -61,7 +61,7 @@ import CardArea from '~/components/CardArea.vue';
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
     }
 
     .aree{
@@ -72,8 +72,10 @@ import CardArea from '~/components/CardArea.vue';
     }
 
     #a1{
-        width:800px;
-        height:800px;
+        width:max-content;
+        height:max-content;
+        max-width:800px;
+        max-height:800px;
     }
     
     .sottot{
@@ -99,7 +101,7 @@ import CardArea from '~/components/CardArea.vue';
     main
     {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-content: flex-start;
         gap: 10px;

@@ -35,7 +35,7 @@
         padding: 5px;
         bottom: 0;
         min-height: 1vh;
-        
+        align-items: center;
         
     }
 
@@ -51,8 +51,7 @@
         align-items: center; 
         grid-template-columns: 1fr 1fr;
         column-gap: auto;
-        margin-left: 5;
-        margin-right: 5%;
+        margin-left: 15%;
     }
 
     .footer-bottom{

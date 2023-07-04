@@ -111,7 +111,7 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
     }
 
     .proj1{
@@ -131,7 +131,7 @@
         display: grid;
         align-items: center; 
         grid-template-columns: 1fr 1fr;
-        column-gap: 400px;
+        column-gap: auto;
         background-color:#03bfcb
     }
 
@@ -143,8 +143,10 @@
     }
 
     #p2{
-        width:500px;
-        height:700px;
+        width:max-content;
+        height:max-content;
+        max-width:500px;
+        max-height:700px;
     }
 
 
@@ -176,7 +178,7 @@
         display: flex;
         flex-flow: column;
         padding: 10px;
-        width: 700px;
+        width: 100%;
         height: fit-content;
         background-color: #03bfcb;
         border-radius: 10px;
