@@ -41,16 +41,7 @@ To make the project work on GH-Pages there are a few steps to do:
 ## Local Serve
 To help in testing the project, some additional script have been added to the package.json file.
 
-If you want to test the project locally you can use the added command:
-
-      npm run generate-local
-
-This set the DEV environmnet variable. This is used in the nuxt.config.ts file to fix an issue with the local serving of the project. This is the new app field:
-
-      app: {
-        // Checking environment variable to decide root
-        baseURL: process.env.DEV? '' : '/Name-of-Repo'
-      }
+If you want to test the project locally you can remove the baseURL value.
 
 When the project is ready, you can use:
 

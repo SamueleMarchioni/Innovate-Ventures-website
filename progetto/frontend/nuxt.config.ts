@@ -5,6 +5,7 @@ export default defineNuxtConfig({
     ],
     ssr: true,
     runtimeConfig: {
+        dev: 0,
         public:{
             serverURL: "http://localhost:3001" // URL of your local server
         }
