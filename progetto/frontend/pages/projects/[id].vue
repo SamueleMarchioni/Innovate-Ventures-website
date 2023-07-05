@@ -17,7 +17,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
             
             <div id = "data-container">
                 <p class = "data-project"><b>Name:</b> <span>{{ project.name }}</span></p>
-                <p class = "data-project"><b>Area:</b> <span>{{ project.city }}</span></p>
+                <p class = "data-project"><b>Area:</b> <span>{{ project.field }}</span></p>
             </div>
         </div>
 
@@ -40,7 +40,7 @@ import SmallCardArea from '~/components/smallCardArea.vue';
                 <h1 id="proj">Supervisor:</h1>
                 
                 <div id = "project-card-container">
-                    <SmallCard :title = "project.person.name" :subtitle = "project.person.breed" :link = "'/people/' + project.person.id" />
+                    <SmallCard :title = "project.person.name" :subtitle = "project.person.role" :link = "'/people/' + project.person.id" />
                 </div>
              
             </div>

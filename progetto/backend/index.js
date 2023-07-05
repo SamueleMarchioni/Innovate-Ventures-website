@@ -33,7 +33,7 @@ async function initDB() {
             type: DataTypes.STRING,
             allowNull: false
         },
-        breed: {
+        role: {
             type: DataTypes.STRING,
             allowNull: false
         },
@@ -52,7 +52,7 @@ async function initDB() {
             type: DataTypes.STRING,
             allowNull: false
         },
-        city: {
+        field: {
             type: DataTypes.STRING,
             allowNull: false
         },

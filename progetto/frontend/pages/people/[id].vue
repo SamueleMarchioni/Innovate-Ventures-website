@@ -12,7 +12,7 @@
             
             <div id = "data-container-person">
                 <p class = "data-person"><b>Name:</b> <span>{{ person.name }}</span></p>
-                <p class = "data-person"><b>Role:</b> <span>{{ person.breed }}</span></p>
+                <p class = "data-person"><b>Role:</b> <span>{{ person.role }}</span></p>
                 <p class = "data-person"><b>Age:</b> <span>{{ person.age }}</span></p>
             </div>
         </div>
@@ -29,7 +29,7 @@
          <h1 id="proj-person">Projects supervised:</h1>
          
          <div id = "person-card-container">
-            <SmallCard v-for = "project of person.projects" :link = "'/projects/' + project.id" :title = "project.name" :subtitle = "project.city"/>
+            <SmallCard v-for = "project of person.projects" :link = "'/projects/' + project.id" :title = "project.name" :subtitle = "project.field"/>
         </div>
     </main>
 </template>

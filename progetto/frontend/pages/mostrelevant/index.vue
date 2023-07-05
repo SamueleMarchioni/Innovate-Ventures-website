@@ -7,7 +7,7 @@
         
 
         <div id="card-container">
-            <CardLoc v-for = "project of filtered" :title = "project.name" :subtitle = "project.city" :link = "'/projects/' + project.id" :img_link="`_nuxt/assets/img/projects/${project.name}.jpeg`" />
+            <CardLoc v-for = "project of filtered" :title = "project.name" :subtitle = "project.field" :link = "'/projects/' + project.id" :img_link="`_nuxt/assets/img/projects/${project.name}.jpeg`" />
         </div>
        
     </main>

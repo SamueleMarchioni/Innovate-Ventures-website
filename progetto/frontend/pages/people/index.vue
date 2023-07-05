@@ -25,7 +25,7 @@
         </div>
         
         <div id="card-container">
-            <Card v-for = "person of people" :title = "person.name" :subtitle = "person.breed" :link = "'/people/' + person.id" :img_link="`_nuxt/assets/img/people/${person.name}.jpeg`" />
+            <Card v-for = "person of people" :title = "person.name" :subtitle = "person.role" :link = "'/people/' + person.id" :img_link="`_nuxt/assets/img/people/${person.name}.jpeg`" />
         </div>
     </main>
 </template>

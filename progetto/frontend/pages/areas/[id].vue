@@ -24,7 +24,7 @@
             This function is a composable that is available anywhere, without requiring to be imported.
         -->
         <div id = "person-card-container">
-            <SmallCard v-for = "project of area.projects" :link = "'/projects/' + project.id" :title = "project.name" :subtitle = "project.city"/>
+            <SmallCard v-for = "project of area.projects" :link = "'/projects/' + project.id" :title = "project.name" :subtitle = "project.field"/>
         </div>
     </main>
 </template>
