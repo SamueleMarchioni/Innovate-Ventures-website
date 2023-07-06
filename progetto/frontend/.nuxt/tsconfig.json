@@ -9,7 +9,7 @@
     "skipLibCheck": true,
     "strict": true,
     "allowJs": true,
-    "baseUrl": "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend",
+    "baseUrl": "/Users/samuele.marchioni/Desktop/u/progetto/frontend",
     "noEmit": true,
     "resolveJsonModule": true,
     "allowSyntheticDefaultImports": true,
@@ -18,64 +18,64 @@
     ],
     "paths": {
       "~": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "~/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "@": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "@/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "~~": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "~~/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "@@": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "@@/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "assets": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/assets"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets"
       ],
       "assets/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/assets/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets/*"
       ],
       "public": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/public"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public"
       ],
       "public/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/public/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public/*"
       ],
       "#app": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/node_modules/nuxt/dist/app"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app"
       ],
       "#app/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/node_modules/nuxt/dist/app/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app/*"
       ],
       "vue-demi": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/node_modules/nuxt/dist/app/compat/vue-demi"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/app/compat/vue-demi"
       ],
       "#vue-router": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/.nuxt/vue-router"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/vue-router"
       ],
       "#imports": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/.nuxt/imports"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/imports"
       ],
       "#build": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/.nuxt"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt"
       ],
       "#build/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/.nuxt/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/*"
       ],
       "#components": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/.nuxt/components"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/components"
       ]
     }
   },

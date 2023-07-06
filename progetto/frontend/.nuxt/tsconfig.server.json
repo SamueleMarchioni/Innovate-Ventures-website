@@ -12,51 +12,51 @@
     "jsxFragmentFactory": "Fragment",
     "paths": {
       "#imports": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/.nuxt/types/nitro-imports"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/types/nitro-imports"
       ],
       "#paths": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/node_modules/nuxt/dist/core/runtime/nitro/paths"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/node_modules/nuxt/dist/core/runtime/nitro/paths"
       ],
       "~": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "~/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "@": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "@/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "~~": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "~~/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "@@": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend"
       ],
       "@@/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/*"
       ],
       "assets": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/assets"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets"
       ],
       "assets/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/assets/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/assets/*"
       ],
       "public": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/public"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public"
       ],
       "public/*": [
-        "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/public/*"
+        "/Users/samuele.marchioni/Desktop/u/progetto/frontend/public/*"
       ]
     }
   },
   "include": [
-    "/Users/pippomonti99/Desktop/Hypermedia Project/progetto/frontend/.nuxt/types/nitro-nuxt.d.ts",
+    "/Users/samuele.marchioni/Desktop/u/progetto/frontend/.nuxt/types/nitro-nuxt.d.ts",
     "./types/nitro.d.ts",
     "../**/*",
     "../server/**/*"
