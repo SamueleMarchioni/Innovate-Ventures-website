@@ -10,7 +10,7 @@ When everything is ready, use:
 
     node index.js
 
-This will start the server. The server listen on port 3001 and the following endpoint are available:
+This will start the server. The server listen on port 3001 and the following endpoint are available ciao:
 
 - GET
   - /people - Returns all the people 
