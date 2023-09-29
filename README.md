@@ -1,10 +1,14 @@
 # INNOVATE VENTURES
-<img src="https://github.com/SamueleMarchioni/Innovate-Ventures-website/edit/master/progetto/" alt="Italian Trulli">
+<p align='center'>
+  <img src="progetto/frontend/assets/img/pngegg.png" width=40%>
+</p>
 Innovate Ventures is a website that offers users the possibility to get in touch with the reality of a venture capital firm.<br>
 This was a university project for the course Hypermedia and Web Applications, and it actually was my first approach to website creation and deployment(in fact I failed to deploy it).
 
 ## Introduction
-
+<p align='center'>
+  <img src="progetto/frontend/assets/img/home.jpg" width=40%>
+</p>
 Our website is built for a Venture Capital firm: as asked in the project’s specifications we implemented
 different pages to present the main aspects of the firm. In particular, we designed a Homepage and
 pages for People working at the firm, for projects in which they invested in and for the relative
