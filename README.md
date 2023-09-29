@@ -101,5 +101,11 @@ we moved to a local level, to have more personalized metadata for each page. We 
 page the following metadata: title, description and keywords with specific information on the page
 considered.
 
-
+## Deployment
+The chosen Hosting Service is GitHub Pages, with a SSG (Static Site Generation) rendering mode.
+In this way, we are able to host a static website from a repository, generating all the pages and
+putting them online in a static way thanks to GitHub Pages. We made this choice because, from
+our point of view, it is both easy to implement and efficient, especially for a website of a VC firm,
+which does not require big dynamic components. Following the previous choice, for our server we
+selected a different port (3001) from the one used by default by Nuxt (3000).
 
