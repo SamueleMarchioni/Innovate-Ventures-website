@@ -1,5 +1,6 @@
 # INNOVATE VENTURES
-Innovate Ventures is a website that offers users the possibility to get in touch with the reality of a venture capital firm. 
+Innovate Ventures is a website that offers users the possibility to get in touch with the reality of a venture capital firm.<br>
+This was a university project for the course Hypermedia and Web Applications, and it actually was my first approach to website creation and deployment(in fact I failed to deploy it).
 
 ## Getting Started
 
