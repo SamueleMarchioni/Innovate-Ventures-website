@@ -1,6 +1,5 @@
-# Project Title
-
-One Paragraph of project description goes here
+# INNOVATE VENTURES
+Innovate Ventures is a website that offers users the possibility to get in touch with the reality of a venture capital firm. 
 
 ## Getting Started
 
