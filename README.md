@@ -1,5 +1,6 @@
 # INNOVATE VENTURES 
-https://filippomonti99.github.io/HypermediaProject/
+Link to the website: https://filippomonti99.github.io/HypermediaProject/
+
 <p align='center'>
   <img src="progetto/frontend/assets/img/pngegg.png" width=40%>
 </p>
@@ -109,4 +110,11 @@ putting them online in a static way thanks to GitHub Pages. We made this choice 
 our point of view, it is both easy to implement and efficient, especially for a website of a VC firm,
 which does not require big dynamic components. Following the previous choice, for our server we
 selected a different port (3001) from the one used by default by Nuxt (3000).
+
+## Mistakes and what needs to be fixed 
+As you can see the deployment went wrong using this repository because of some problems in linking it to my virtual studio code. 
+However we managed to succesfully deploy it on Filippo Monti Github page https://github.com/FilippoMonti99/HypermediaProject.git.
+The site major problem is that it doesn't rescale when visualized from a mobile phone. Some secondary problems are related to the accessibility, in fact some links tend to have small contrast with respect to the background.<br>
+
+Further improvements will be done ...
 
